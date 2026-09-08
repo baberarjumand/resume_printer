@@ -1,0 +1,279 @@
+{
+  "name": "Baber Arjumand",
+  "headline": "Software Engineer | Frontend Lead",
+  "tagline": "Software Engineer & Technical Leader — React · TypeScript · Node.js · Go",
+  "location": "Islamabad, Pakistan",
+  "links": {
+    "website": "https://baber.dev/",
+    "email": "baber.arjumand@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/baberarjumand/",
+    "github": "https://github.com/baberarjumand"
+  },
+  "summary": {
+    "label": "Summary",
+    "text": "Software engineer and technical leader with over 6 years building production web and mobile products across the full stack, in roles from Frontend Lead to CTO. Shipped cross-border payment platforms, Web3 social products, and AI conversational commerce tools with fully remote teams across the US, UK, Canada, Australia, and the Gulf."
+  },
+  "experience": {
+    "label": "Professional Experience",
+    "items": [
+      {
+        "role": "Founder",
+        "company": "Qaari.net",
+        "companyWebsite": "https://qaari.net",
+        "location": "Islamabad, Pakistan",
+        "workMode": "Remote",
+        "startDate": { "month": 7, "year": 2024 },
+        "endDate": "Present",
+        "bullets": [
+          "Founded and operate an online marketplace pairing children and adults with private Quran teachers, covering matching, scheduling, and lesson delivery.",
+          "Direct product strategy, UX, and full-stack engineering as sole technical owner, plus teacher vetting and search visibility."
+        ]
+      },
+      {
+        "role": "Front End Lead",
+        "company": "AeraTech",
+        "location": "London, United Kingdom",
+        "workMode": "Remote",
+        "startDate": { "month": 11, "year": 2024 },
+        "endDate": { "month": 6, "year": 2025 },
+        "bullets": [
+          "Architected a B2B cross-border payment platform from concept to alpha in React and Tailwind CSS across an 8-month engagement.",
+          "Engineered Node.js, Express, and MongoDB services with Python microservices handling financial data analysis and reporting.",
+          "Integrated Mastercard Digital Asset Solutions and shipped a real-time multi-branch liquidity dashboard, plus a settlement recommendation engine."
+        ]
+      },
+      {
+        "role": "Software Engineer, Frontend",
+        "company": "Connectly.ai",
+        "location": "San Francisco, CA, United States",
+        "workMode": "Remote",
+        "startDate": { "month": 6, "year": 2024 },
+        "endDate": { "month": 10, "year": 2024 },
+        "bullets": [
+          "Delivered end-to-end features for an AI conversational commerce platform in React, powering campaigns across 3 channels: WhatsApp, Messenger, and Discord.",
+          "Engineered distributed Go and PostgreSQL services on AWS to sustain high-concurrency messaging workflows.",
+          "Migrated the unified customer inbox from Redux to Jotai, and built engagement analytics dashboards with Datadog monitoring."
+        ]
+      },
+      {
+        "role": "Front End Lead",
+        "company": "Tapistri",
+        "location": "United States",
+        "workMode": "Remote",
+        "startDate": { "month": 5, "year": 2022 },
+        "endDate": { "month": 5, "year": 2024 },
+        "bullets": [
+          "Directed frontend architecture for a Web3 social platform that aggregates and verifies cross-chain digital assets and NFTs.",
+          "Led a full migration from legacy Angular to React and Next.js, improving load performance, SEO, and scalability.",
+          "Engineered proprietary multi-wallet authentication ahead of WalletConnect, and led a distributed frontend team."
+        ]
+      },
+      {
+        "role": "Front End Lead",
+        "company": "Emerge",
+        "location": "Toronto, ON, Canada",
+        "workMode": "Remote",
+        "startDate": { "month": 5, "year": 2022 },
+        "endDate": { "month": 9, "year": 2023 },
+        "bullets": [
+          "Led frontend delivery in Angular and React across concurrent client accounts as senior technical consultant.",
+          "Engineered backend APIs with NestJS and modelled complex data in ArangoDB to close the full-stack loop.",
+          "Translated business needs into software requirements specifications and phased development roadmaps."
+        ]
+      },
+      {
+        "role": "Senior Director of Technology",
+        "company": "East Coast Digital Marketing",
+        "location": "Orlando, FL, United States",
+        "workMode": "Remote",
+        "startDate": { "month": 6, "year": 2022 },
+        "endDate": { "month": 2, "year": 2023 },
+        "bullets": [
+          "Directed 4 technical functions — web engineering, UI/UX, IT infrastructure, and digital marketing — across a concurrent client portfolio.",
+          "Supervised global offshore teams delivering React, Angular, Node.js, and WordPress products for healthcare, food service, and non-profit clients.",
+          "Owned budgets, timelines, and QA across the full SDLC, and hired full-stack developers, SEO analysts, and content strategists."
+        ]
+      },
+      {
+        "role": "Chief Technology Officer",
+        "company": "Bold Tech LLC",
+        "location": "Orlando, FL, United States",
+        "workMode": "Remote",
+        "startDate": { "month": 8, "year": 2021 },
+        "endDate": { "month": 6, "year": 2022 },
+        "bullets": [
+          "Set technical strategy and converted business requirements into specifications and Agile sprint plans.",
+          "Directed engineering teams through the full SDLC and administered enterprise IT infrastructure and web services."
+        ]
+      },
+      {
+        "role": "Full Stack Engineer, then Frontend Developer",
+        "company": "Bold Tech LLC",
+        "location": "Orlando, FL, United States",
+        "workMode": "Remote",
+        "startDate": { "month": 12, "year": 2020 },
+        "endDate": { "month": 8, "year": 2021 },
+        "bullets": [
+          "Delivered full-stack applications spanning React and Angular frontends, REST API design, and database schema optimization.",
+          "Shipped Ionic progressive web apps and hybrid iOS and Android builds with in-app subscriptions through both app stores.",
+          "Integrated Stripe, Apple, and Google payments, and configured CI/CD on AWS, Heroku, and Firebase."
+        ]
+      },
+      {
+        "role": "Lead Frontend Engineer",
+        "company": "Up Pay",
+        "location": "Sydney, NSW, Australia",
+        "workMode": "Remote",
+        "startDate": { "month": 4, "year": 2020 },
+        "endDate": { "month": 1, "year": 2021 },
+        "bullets": [
+          "Architected the Angular frontend from scratch with automated CI/CD through AWS Amplify.",
+          "Engineered a Spring Boot backend on AWS EC2, integrated Stripe Connect for a vendor marketplace, and ran intern workshops."
+        ]
+      },
+      {
+        "role": "Chief Technology Officer",
+        "company": "MgsalaCo",
+        "location": "Dammam, Saudi Arabia",
+        "workMode": "Remote",
+        "startDate": { "month": 12, "year": 2019 },
+        "endDate": { "month": 6, "year": 2020 },
+        "bullets": [
+          "Built an on-demand laundry marketplace in Ionic for iOS and Android, from concept to alpha release.",
+          "Engineered a serverless backend on Firebase Cloud Firestore and Cloud Functions, with internationalization for multi-region launch."
+        ]
+      },
+      {
+        "role": "Fullstack Web Developer",
+        "company": "Independent Clients",
+        "location": "Global",
+        "workMode": "Hybrid",
+        "startDate": { "month": 12, "year": 2018 },
+        "endDate": "Present",
+        "bullets": [
+          "Deliver custom web solutions for small and mid-sized businesses, spanning brand sites, e-commerce, and food-delivery management systems.",
+          "Build with React and Node.js alongside WordPress, Webflow, and Squarespace, integrating payments, CRM, and marketing automation."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "label": "Technical Skills",
+    "items": [
+      {
+        "name": "Languages",
+        "skills": ["TypeScript", "JavaScript", "Python", "Go", "Java", "SQL", "HTML", "CSS/SCSS"]
+      },
+      {
+        "name": "Frontend",
+        "skills": ["React", "Next.js", "Angular", "Ionic", "Capacitor", "Tailwind CSS", "Material UI", "Redux", "Jotai", "RxJS"]
+      },
+      {
+        "name": "Backend & Data",
+        "skills": ["Node.js", "Express", "NestJS", "Spring Boot", "REST APIs", "PostgreSQL", "MongoDB", "ArangoDB", "Cloud Firestore"]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "skills": ["AWS (EC2, Amplify)", "Firebase", "Heroku", "Cloudflare", "CI/CD", "Git", "Datadog"]
+      },
+      {
+        "name": "Integrations",
+        "skills": ["Stripe Connect", "Apple & Google Pay", "Wagmi", "Ethers", "Mastercard Digital Asset Solutions"]
+      },
+      {
+        "name": "Practices",
+        "skills": ["Agile & Scrum", "SDLC ownership", "Code review", "Automated testing", "Technical leadership"]
+      }
+    ]
+  },
+  "education": {
+    "label": "Education",
+    "items": [
+      {
+        "qualificationName": "Bachelor of Engineering",
+        "qualificationField": "Electronic & Computer Engineering",
+        "instituteName": "University of Nottingham Malaysia",
+        "instituteLocation": "Semenyih, Malaysia",
+        "startYear": 2010,
+        "endYear": 2013
+      }
+    ]
+  },
+  "projects": {
+    "label": "Selected Projects",
+    "items": [
+      {
+        "name": "Qaari.net",
+        "url": "https://qaari.net",
+        "description": "Online marketplace matching students with private Quran teachers, covering booking, scheduling, and teacher onboarding.",
+        "startYear": 2024,
+        "tech": ["React", "Node.js", "Stripe"]
+      },
+      {
+        "name": "Quran Ayat Wallpaper Generator",
+        "description": "Generator that renders one wallpaper per ayah, producing all 6,236 verses of the Quran as downloadable images.",
+        "startYear": 2019,
+        "tech": ["Python"]
+      }
+    ]
+  },
+  "certifications": {
+    "label": "Certifications",
+    "items": [
+      {
+        "name": "Oracle Certified Associate, Java SE 7",
+        "issuer": "Oracle",
+        "year": 2013
+      },
+      {
+        "name": "IBM Applied AI Professional Certificate",
+        "issuer": "IBM",
+        "year": 2019
+      },
+      {
+        "name": "Full Stack Web & Mobile Development",
+        "issuer": "HKUST, Coursera",
+        "year": 2020
+      },
+      {
+        "name": "JavaScript Algorithms & Data Structures",
+        "issuer": "freeCodeCamp",
+        "year": 2020
+      }
+    ]
+  },
+  "additional": {
+    "label": "Leadership & Teaching",
+    "items": [
+      {
+        "role": "Organizer & Workshop Facilitator",
+        "organization": "Effective Islamic English Cross-Cultural Communication Program",
+        "location": "Dammam, Saudi Arabia",
+        "startYear": 2019,
+        "endYear": 2020,
+        "bullets": []
+      },
+      {
+        "role": "Director of Education",
+        "organization": "Muslim Student Association, University of British Columbia",
+        "location": "Vancouver, BC, Canada",
+        "startYear": 2015,
+        "endYear": 2016,
+        "bullets": []
+      },
+      {
+        "role": "Math & Coding Instructor",
+        "organization": "Sylvan Learning",
+        "location": "Vancouver, BC, Canada",
+        "startYear": 2016,
+        "endYear": 2017,
+        "bullets": []
+      }
+    ]
+  },
+  "languages": [
+    { "name": "English", "proficiency": "Native" },
+    { "name": "Urdu", "proficiency": "Native" },
+    { "name": "Hindi", "proficiency": "Full professional" }
+  ]
+}

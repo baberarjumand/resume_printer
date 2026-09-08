@@ -1,0 +1,718 @@
+# Resume Guidelines
+
+Working synthesis of resume rules for this repo. Not a reprint of sample documents.
+
+**Sources (2026-09-08):**
+
+1. Harvard FAS Mignone Center for Career Success (MCS) — starting at the [Harvard College Resumes & Cover Letter Guide](https://careerservices.fas.harvard.edu/resources/harvard-college-guide-to-resumes-cover-letters/). Primary document: [Harvard College Guide to Creating a Strong Resume](https://careerservices.fas.harvard.edu/resources/create-a-strong-resume/).
+2. [CareerFoundry — Creating the Best Tech Resume](https://careerfoundry.com/en/blog/career-change/best-tech-resume-guide-tips-examples/) (Jaye Hannah, updated 2024-12-19).
+3. [Enhancv — 18 Tech Resume Examples & Guide for 2026](https://enhancv.com/resume-examples/tech/) (Doroteya Vasileva, CPRW; updated 2026-08-19).
+4. [IGotAnOffer — Tech Resume Examples](https://igotanoffer.com/blogs/tech/tech-resume-examples) (updated 2026-08-13; FAANG recruiter/coach input).
+
+Harvard is the layout/language baseline. CareerFoundry, Enhancv, and IGotAnOffer add **tech-industry** content, ATS/stack matching, and quantification. Where they conflict, see §17.8, §19.7, and §18.
+
+---
+
+## 1. Source map
+
+Landing page: [Harvard College Resumes & Cover Letter Guide](https://careerservices.fas.harvard.edu/resources/harvard-college-guide-to-resumes-cover-letters/)
+
+That page’s body is only one sentence. The useful content is on linked resources:
+
+| Resource | URL | What it contributes |
+| --- | --- | --- |
+| Harvard College Guide to Creating a Strong Resume | https://careerservices.fas.harvard.edu/resources/create-a-strong-resume/ | Core do/don’t, language, action verbs, AI, degree formatting, cover-letter rules |
+| Resume sample PDF | https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2026/07/resume-sample.pdf | Annotated one-page general resume |
+| Optional category examples PDF | https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2026/07/category-sample.pdf | Optional section names and formats |
+| Cover letter template PDF | https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2024/07/cover-letter-template.pdf | Letter structure |
+| Tech resume example | https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2026/07/Harvard-College-CS-Resume-Example.pdf | CS/recruiting layout |
+| Engineering resume example | https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2026/07/Harvard-College-Engineering-Example.pdf | Engineering layout |
+| Bullet-point template | https://careerservices.fas.harvard.edu/resources/bullet-point-resume-template/ | Word / accessible Word / Google Docs first-draft template |
+| Paragraph template | https://careerservices.fas.harvard.edu/resources/harvard-college-paragraph-resume-template/ | Alternate paragraph style |
+| How to Write a Great Resume (video) | https://www.youtube.com/watch?v=PAthQKLhBTs | 3-minute MCS tips |
+| GSAS Master’s resume/cover letter | https://careerservices.fas.harvard.edu/resources/gsas-masters-resume-cover-letter/ | Length, fonts, tailoring for master’s |
+| GSAS PhD resume/cover letter | https://careerservices.fas.harvard.edu/resources/resumes-cover-letters-for-phd-students/ | Resume vs CV; 1 vs 2 pages |
+| GSAS CV & cover letter | https://careerservices.fas.harvard.edu/resources/gsas-cv-cover-letter-guide-2/ | Academic CV rules (not a job resume) |
+| HES impactful resumes/cover letters | https://careerservices.fas.harvard.edu/resources/hes-create-impactful-resumes-and-cover-letters/ | Extra ATS/don’t list; HES degree wording |
+| HES resume samples | https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2026/02/HES-Resume-samples-combined.pdf | Experienced-candidate patterns |
+| AI for professional development | https://careerservices.fas.harvard.edu/channels/ai-for-professional-development-and-exploration/ | How to use AI on application docs |
+| Create a Resume/CV or Cover Letter hub | https://careerservices.fas.harvard.edu/channels/create-a-resume-cv-or-cover-letter/ | MCS definition of resume vs CV vs letter |
+| CareerFoundry tech resume guide | https://careerfoundry.com/en/blog/career-change/best-tech-resume-guide-tips-examples/ | Tech do/don’t, ATS, skills, career-changer sections |
+| Enhancv tech resume guide | https://enhancv.com/resume-examples/tech/ | Tech format, quantified bullets, skills grouping, summary/objective, projects |
+| IGotAnOffer FAANG tech resumes | https://igotanoffer.com/blogs/tech/tech-resume-examples | FAANG recruiter rules, X-Y-Z bullets, section checklist, real offer resumes |
+
+**Related but not resume guidelines** (skipped for this file): networking guides, interview/offer guides, law/med/business school guides, employer policies, Big Resume product page, career-fair FAQs.
+
+**Templates (editable, not transcribed):**
+
+- Bullet: Word `2025-template_bullet.docx`; accessible Word `Accessible-MCS-Resume-Template-Bullet-Points.docx`; Google Doc copy link on the bullet-template page
+- Paragraph: Word `2025-template_paragraph.docx`; accessible Word `Accessible-MCS-Resume-Template-Paragraph.docx`; Google Doc copy link on the paragraph-template page
+
+---
+
+## 2. What a resume is
+
+MCS definition (College + hub + GSAS Master’s):
+
+- A **concise, informative summary** of abilities, education, and experience.
+- It should highlight strongest assets/skills and **differentiate** the candidate.
+- It will not get the job by itself, but it is a major factor in getting an interview.
+- Primary purpose of resume + cover letter is to **market** the candidate. Keep the employer’s hiring needs in mind.
+
+**Tailoring:** Tailor to the type of position. Not every experience must be directly related, but the resume should reflect the **skills, experience, and impact the employer would value**.
+
+**Resume vs CV:**
+
+- **Resume:** brief; used for most non-research, non-academic jobs. 1 page is the undergraduate / master’s / MBA norm. PhD industry resumes may be 1–2 pages. More space on experience; less on publications/presentations.
+- **CV:** academic/research document. More credentials (publications, presentations, references). No strict page limit; graduate CVs often 2–5 pages. Use for faculty, fellowships, grants, some think-tank / research-institute / industry research roles.
+
+**Multiple versions:** Write different resumes for different fields. Example (GSAS): a data-science master’s applying to tech vs consulting should emphasize projects/datasets for tech and leadership/teamwork (student groups, volunteering, internships) for consulting. PhDs applying to industry R&D, quant finance, and consulting should keep three versions.
+
+---
+
+## 3. Length and formatting
+
+### Length
+
+- **College / BA/BS / MA/MS / MBA:** one page is typical and often preferred.
+- **Two pages:** acceptable if advanced in career, many years of experience, or a PhD applying to PhD-required roles. A two-page resume for a non-PhD business role can signal “overqualified.”
+- **Follow the employer’s instructions** if they specify one page.
+- Academic **CVs:** no page limit, but keep the most important information on page 1; most graduate CVs are 2–5 pages.
+
+### Formatting (GSAS Master’s / PhD / CV guides)
+
+- Common, easy-to-read font (explicit PhD/CV examples: Times New Roman or Arial).
+- Font size **10–12 pt**, consistent throughout.
+- **Margins equal on all sides**, at least **0.75 in** (master’s and academic CV). PhD resume guide allows **at least 0.5 in**.
+- Avoid **text boxes, color, and shading**. PhD/CV also: avoid underlining; italics only in moderation.
+- GSAS Master’s: **discourage templates** (ATS/parsing concern). College still provides Word/Google templates for a first draft.
+- Emphasize with **bold, ALL CAPS, and white space**. Use highlighting judiciously.
+- Be consistent in format **and** content (spacing, underline/italics/bold/caps).
+- Balance text with white space; easy to skim.
+- Confirm formatting after converting to PDF. Use the same font type and size on resume and cover letter.
+- Left side: important details (school, degree, job title). Right side: location and dates.
+
+### Layout patterns in College samples
+
+One-column, letter size. Name centered or prominent at top. Contact on one line under the name (or split left/right for campus-mail layouts). Section headings centered or left-aligned and visually distinct. Employer/org on the left, city/state on the right; title on the left, dates on the right. Reverse chronological within each section.
+
+---
+
+## 4. Language rules
+
+Resume language should be:
+
+- Specific rather than general
+- Active rather than passive
+- Written to **express, not impress**
+- Articulate rather than “flowery”
+- Fact-based: **quantify and qualify**
+- Written for people **and systems that scan quickly**
+
+### Do
+
+- Tailor content to each position
+- Convey impact and achievements (results, not just duties)
+- Be consistent
+- Make it easy to read; balance white space
+- Use consistent spacing / italics / bold / capitalization
+- Order **section headings by importance for that role**
+- Within a heading, **reverse chronological** (most recent first)
+- Avoid information gaps (e.g. a missing summer) — fill or explain via other activities
+- Know the material; keep it accurate
+- Consider both human readers and applicant tracking systems (HES)
+
+### Don’t
+
+- Personal pronouns (`I`, `we`)
+- Abbreviate (unless industry-standard; HES)
+- Narrative style
+- Slang / colloquialisms
+- Photo
+- Age or gender
+- List references unless asked
+- Start each line with a date
+- Overuse “I” in cover letters
+- Let generative AI be the primary author
+
+### Top mistakes (College)
+
+1. Spelling and grammar errors
+2. Missing email and phone
+3. Passive language instead of action verbs
+4. Not organized, concise, or easy to skim
+5. Not demonstrating results
+
+HES adds: failing to tailor; not considering ATS; and lists “not demonstrating results” as an extra item.
+
+### Bullet mechanics (HES samples + GSAS)
+
+- Each line is a **phrase**, not a full sentence.
+- Start with an **action verb**.
+- Include enough detail for accomplishments, skills, knowledge, abilities, or impact.
+- Quantify where possible.
+- Vary verbs (College sample annotation: “Use different verbs”).
+- Be consistent with numbers: **either numerals or words, not both** (College sample annotation).
+- For academic CVs: sentence fragments; minimize articles (`a`, `an`, `the`); jargon at the audience’s level.
+
+---
+
+## 5. Header / contact
+
+College sample pattern:
+
+- Full name (largest type)
+- Street or city/state • email • phone • optional GitHub / LinkedIn / portfolio
+- Use **college email** and check it even if mail is forwarded (College annotation)
+- Tech example also includes GitHub URL
+- HES: city/state optional; LinkedIn or portfolio only if needed
+- Do not omit email and phone
+- Engineering sample uses campus mailbox + college name + city as a stacked left block, email/phone on the right
+
+---
+
+## 6. Section architecture
+
+Order headings by **importance to the target role**, not a fixed universal order. HES: Education may move to the end if Experience is more relevant; a Summary can be first. Tech: put **Technical Skills after Education**. If a specialized category is the strongest match, make it the primary Experience-like section.
+
+### Standard College sections (from the annotated general sample)
+
+1. Contact
+2. Education
+3. Experience
+4. Leadership (and/or Activities)
+5. Skills & Interests
+
+### Optional / alternate categories (category-sample PDF)
+
+Use if relevant to experience or the job. Be consistent: paragraph **or** bullets, not mixed styles.
+
+- Leadership Experience
+- Public Service Experience
+- Technical Skills
+- Research Experience
+- Performing Arts Experience
+- Activities
+- Also seen in other samples: Relevant Experience, Additional Experience, Engineering Research Experience, Projects and Skills, Technical Skills & Projects, Selected Leadership & Research Impact, Relevant Research, Relevant Data Science Projects
+
+Creative/performing-arts students may also need portfolios/websites; MCS can advise.
+
+### Reverse chronology
+
+Most recent first **within** each section. Dates typically `Month Year – Month Year`, `Month Year – Present`, or `Month – Month Year` for summers. Graduation as `May 2027` (or expected date).
+
+---
+
+## 7. Education
+
+### What to include (College samples)
+
+- Institution, city, degree, field, GPA, graduation month/year
+- Relevant coursework **only if relevant to the target job** (sample annotation)
+- Optional: study abroad, high school (typical for undergrads; drop as career grows)
+- Optional: honors, SAT/ACT **only if the employer asks** (sample annotation)
+- Time-intensive athletics can be noted under Education (“Commit 20 hours per week to …”)
+- Design/capstone projects can sit under the degree line
+- HES: capstone, graduate certificate, awards, relevant coursework as optional Education bullets
+- HES: note working hours while studying if it explains the story (“Worked up to 40 hours a week to defray cost of tuition”)
+
+### Joint / double / concurrent Harvard degrees (College guide)
+
+Joint or double concentration:
+
+- `A.B. in Biomedical Engineering with a joint concentration in Computer Science`
+- `A.B. in History with a double concentration in Statistics`
+- `A.B. with a joint (or double) concentration in Government and Computer Science`
+
+Concurrent master’s examples:
+
+- `A.B./S.M. Computer Science, GPA 3.6`
+- `A.B./S.M. Computer Science; Concurrent S.M. Computer Science`
+- `Concurrent Degrees: S.M. Computer Science; A.B. Applied Mathematics`
+
+### Harvard Extension School wording (HES)
+
+Degrees are **Bachelor of Liberal Arts in Extension Studies (ALB)** and **Master of Liberal Arts in Extension Studies (ALM)**. If “Extension School” is omitted from the school name, include **“in Extension Studies”** in the degree name.
+
+Accepted patterns:
+
+- `HARVARD UNIVERSITY EXTENSION SCHOOL` + `Master of Liberal Arts (ALM), Data Science`
+- `Harvard University Extension School, Cambridge, MA` + `Bachelor of Liberal Arts, Field of Study Economics`
+- `HARVARD UNIVERSITY, Cambridge, MA` + `Master of Liberal Arts (ALM) in Extension Studies` + field of study (required form when school name omits Extension)
+- Certificates: `Graduate Certificate in Cybersecurity`
+- Single course or preadmission coursework can be listed honestly as such
+
+Do not invent a College/GSAS degree. Applicants to HES degree programs should follow Admissions resume instructions, not these job-search formats.
+
+---
+
+## 8. Experience bullets — content pattern
+
+College/HES/GSAS samples all follow: **verb + task + method/tools + result**.
+
+Good bullets typically:
+
+- Start with a strong verb
+- Name the object (system, campaign, team, dataset)
+- Include tools/methods when relevant (`Python`, `C#`, `Mailchimp`, cleanroom process)
+- End with impact: %, $, users, time saved, ranking, scope (n people, n reports)
+
+College annotations:
+
+- Relevant interests/skills can be shown through **campus and volunteer work**, not only jobs
+- Use **different verbs** across bullets
+- Present data consistently
+
+HES: if Additional Information / projects / activities are **more relevant than jobs**, move that section above Experience.
+
+---
+
+## 9. Industry-specific patterns
+
+### Tech / CS (College CS example)
+
+- Header may include GitHub
+- Education, then **Technical Skills & Projects** (programming languages, design tools, then 1–2 project blurbs with dates)
+- Then Relevant Experience (internships, teaching fellow)
+- Then Leadership
+- Skills listed as compact `Programming:` / `Design:` lines, not a giant keyword dump
+- Project blurbs: name, affiliation (e.g. course), date range, 2–3 lines of what was built and with which stack
+- For fuller tech-industry rules (ATS, stack match, quantified bullets, summary, projects), see §17.
+
+### Engineering (College engineering example)
+
+- Education includes relevant coursework **and** a named design project
+- Primary section can be **Engineering Research Experience** (research assistant / REU) with bullets
+- Additional Experience for teaching/course assistant
+- Leadership and Activities
+- Combined **Projects and Skills** at the bottom: named hardware/software projects; Laboratory techniques; Technology; Languages with fluency
+
+### Data science / technical master’s (GSAS samples)
+
+- Skills (Python libraries, SQL, etc.) high on the page
+- Course projects can **be** the Experience section if that is the most relevant work
+- Highly specific technical bullets are appropriate for technical readers
+
+### Experienced / career-changer (HES samples)
+
+- Optional **summary / target-title block** under the name for a career pivot
+- Education can be last
+- Two pages is modeled when years of experience require it
+- Footer page labels (`Name Resume, p. 2`) appear on multi-page HES samples
+
+---
+
+## 10. Skills, languages, interests
+
+Typical groupings:
+
+- **Technical / Programming / Technology:** languages, tools, proficiency sometimes in parentheses (`R (intermediate)`, `SPSS (beginner)`) or as Advanced/Intermediate
+- **Language:** fluency labels (`Fluent`, `Conversational`, `intermediate`, `beginner`)
+- **Laboratory:** techniques/tools for research/engineering
+- **Interests:** short, human list (sports, arts) — College general sample includes this; tech/engineering samples often omit a separate interests line
+- HES: Skills optional; move earlier when skills are vital to the role
+
+---
+
+## 11. International resumes
+
+College + HES: guidelines vary by country. MCS points to international resources including Interstride. Do not assume US one-page, no-photo, no-age rules apply everywhere.
+
+---
+
+## 12. Cover letters (same MCS guide family)
+
+A cover letter is a **writing sample** and part of screening. Goal: make the reader want to read the resume and invite an interview.
+
+### Structure
+
+1. Date, then specific name, title, organization, full address (omit this block in email; start at salutation). Use a **colon** after `Dear Name:`.
+2. **Opening:** why you are writing; position or type of work; how you heard; why this employer; brief fit (College template allows a three-reason summary).
+3. **Middle (1–2 paragraphs):** connect story to the role with **one or two key examples**; do not rehash the whole resume; confident; this is also a writing sample.
+4. **Closing:** reiterate interest and contribution; thank; look forward to discussing. College sample does not always restated phone/email; HES often includes them.
+
+### Rules
+
+- Address a specific person when possible
+- Research and tailor
+- One page; concise; factual; no flowery language
+- Examples that prove skills
+- Write from the reader’s question: “Can this person do the job?”
+- Don’t overuse “I”
+- Use action words; it is a marketing tool
+- Match resume font
+- Check PDF conversion
+- Pull language from the job description and connect it to credentials
+
+### Academic cover letters (GSAS CV guide)
+
+Different genre: department letterhead if allowed; `Dear Professor/Dr.` or “Members of the Search Committee”; paragraphs on dissertation, future research, teaching; not a “CV in prose”; length/detail follow field norms.
+
+---
+
+## 13. Using AI (MCS)
+
+College guide + AI channel:
+
+- Resume and letter must **authentically represent** the person.
+- AI is useful for **editing**: brainstorming bullet revisions, pulling keywords from a job description, improving an existing draft.
+- AI should **not** be the primary author; output is often generic. Employers can spot generic/over-polished AI text.
+- Start with your own work; treat AI output as a draft.
+- Verify facts; models fabricate stats, credentials, and employer details.
+- Watch bias; don’t paste confidential/sensitive material into public tools.
+- Follow each employer’s AI-disclosure rules.
+- Combine with human review (MCS advisor).
+- MCS also points students to Big Resume’s ResumeAI feedback tool.
+
+---
+
+## 14. Action verbs (College guide)
+
+Use at the start of bullets. Prefer precise, high-energy verbs over generic `managed` / `worked on`.
+
+**Leadership:** Accomplished, Achieved, Administered, Analyzed, Assigned, Attained, Chaired, Consolidated, Contracted, Coordinated, Delegated, Developed, Directed, Earned, Evaluated, Executed, Handled, Headed, Impacted, Improved, Increased, Led, Mastered, Orchestrated, Organized, Oversaw, Planned, Predicted, Prioritized, Produced, Proved, Recommended, Regulated, Reorganized, Reviewed, Scheduled, Spearheaded, Strengthened, Supervised, Surpassed
+
+**Communication:** Addressed, Arbitrated, Arranged, Authored, Collaborated, Convinced, Corresponded, Delivered, Developed, Directed, Documented, Drafted, Edited, Energized, Enlisted, Formulated, Influenced, Interpreted, Lectured, Liaised, Mediated, Moderated, Negotiated, Persuaded, Presented, Promoted, Publicized, Reconciled, Recruited, Reported, Rewrote, Spoke, Suggested, Synthesized, Translated, Verbalized, Wrote
+
+**Research:** Clarified, Collected, Concluded, Conducted, Constructed, Critiqued, Derived, Determined, Diagnosed, Discovered, Evaluated, Examined, Extracted, Formed, Identified, Inspected, Interpreted, Interviewed, Investigated, Modeled, Organized, Resolved, Reviewed, Summarized, Surveyed, Systematized, Tested
+
+**Technical:** Assembled, Built, Calculated, Computed, Designed, Devised, Engineered, Fabricated, Installed, Maintained, Operated, Optimized, Overhauled, Programmed, Remodeled, Repaired, Solved, Standardized, Streamlined, Upgraded
+
+**Teaching:** Adapted, Advised, Clarified, Coached, Communicated, Coordinated, Demystified, Developed, Enabled, Encouraged, Evaluated, Explained, Facilitated, Guided, Informed, Instructed, Persuaded, Set Goals, Stimulated, Studied, Taught, Trained
+
+**Quantitative:** Administered, Allocated, Analyzed, Appraised, Audited, Balanced, Budgeted, Calculated, Computed, Developed, Forecasted, Managed, Marketed, Maximized, Minimized, Planned, Projected, Researched
+
+**Creative:** Acted, Composed, Conceived, Conceptualized, Created, Customized, Designed, Developed, Directed, Established, Fashioned, Founded, Illustrated, Initiated, Instituted, Integrated, Introduced, Invented, Originated, Performed, Planned, Published, Redesigned, Revised, Revitalized, Shaped, Visualized
+
+**Helping:** Assessed, Assisted, Clarified, Coached, Counseled, Demonstrated, Diagnosed, Educated, Enhanced, Expedited, Facilitated, Familiarized, Guided, Motivated, Participated, Proposed, Provided, Referred, Rehabilitated, Represented, Served, Supported
+
+**Organizational:** Approved, Accelerated, Added, Arranged, Broadened, Cataloged, Centralized, Changed, Classified, Collected, Compiled, Completed, Controlled, Defined, Dispatched, Executed, Expanded, Gained, Gathered, Generated, Implemented, Inspected, Launched, Monitored, Operated, Organized, Prepared, Processed, Purchased, Recorded, Reduced, Reinforced, Retrieved, Screened, Selected, Simplified, Sold, Specified, Steered, Structured, Systematized, Tabulated, Unified, Updated, Utilized, Validated, Verified
+
+GSAS lists overlap and add research/analytical verbs such as assessed, compared, discovered, measured, predicted, verified; and lead/manage verbs such as acquired, delegated, instituted, recruited.
+
+---
+
+## 15. Default one-page blueprint (College)
+
+Use this unless the target job clearly needs a different heading order:
+
+1. **Name + contact** (email, phone, city; GitHub/LinkedIn if relevant)
+2. **Education** — degree, GPA if strong, relevant coursework, notable honors or time-intensive commitments
+3. **Experience** (or a more specific heading: Research, Relevant Experience, etc.) — reverse chrono, action-verb bullets or a consistent paragraph style
+4. **Leadership / Activities / Public service** as space and relevance allow
+5. **Skills** (and Interests if space and tone fit)
+
+**Paragraph vs bullets:** College offers both. Pick one style and stay consistent. Technical and research roles in the samples use bullets. Paragraph format is a valid MCS option for a denser narrative style.
+
+---
+
+## 16. Implementation notes for this repo
+
+When generating or editing resumes here:
+
+- Prefer **one page**, 10–12 pt, generous margins, no photos, no pronouns, no skills graphs.
+- Section order is a **function of the job**, not a fixed template.
+- Every experience line: action verb + specifics + result.
+- Quantify; don’t mix “10” and “ten” in the same document.
+- Put technical skills near the top for software/engineering roles.
+- High school and SAT belong only for early-career / if requested.
+- Do not let AI invent metrics or rewrite in generic corporate voice.
+- Match US MCS conventions unless the application is explicitly international.
+- For **tech roles**, also apply §17 (CareerFoundry + Enhancv) and §19 (IGotAnOffer / FAANG): stack-match skills, quantify impact, prove skills with projects, keep a core resume plus per-job variants.
+
+---
+
+## 17. Tech resume tips (CareerFoundry + Enhancv)
+
+Industry guides aimed at software, data, design, and other tech hiring. Recruiters often spend only a few minutes on the page; many applications are filtered by ATS before a human (often a **non-technical** recruiter) sees them. Write so both the parser and a non-engineer can follow it.
+
+### 17.1 Do / don’t (CareerFoundry)
+
+**Do**
+
+- Tailor to each company. Recruiters scan for **keywords from the job description**; put those keywords in.
+- Name the **tools / stack** (and common collaboration tools: Jira, Asana, HubSpot, etc.). Remote-first teams care about this.
+- Proofread. Have more than one person read it. Typos read as sloppy.
+- Only list skills and stories you can **defend in an interview** — the phone screen uses the resume as a question bank.
+
+**Don’t**
+
+- Big blocks of text. Scannable bullets and lists; save narrative for the cover letter.
+- Longer than **one page** if you can help it. CareerFoundry: anything past **two pages** risks being discarded.
+- Design-heavy layouts. Creative accents are optional; **humans and ATS must read it fast**. Over-designed files (especially UX/UI) get auto-rejected. Put creativity in the portfolio and cover letter, not in decorations.
+
+### 17.2 What to include (CareerFoundry)
+
+Eight sections, drop any that steal space from something more relevant:
+
+1. **Name and contact** — full street address only if the role is location-specific.
+2. **Personal summary** — 1–2 sentences: title, sector, key skills/credentials, experience snapshot. (Enhancv allows a denser 3–5 sentence summary for seniors; see §17.7.)
+3. **Relevant links** — site, portfolio, professional profiles. Link resume ↔ portfolio ↔ cover letter.
+4. **Relevant education** — university, bootcamp, relevant courses. Not elementary/high school once you have higher ed.
+5. **Tools** — especially those the target team uses (Figma, GitHub, etc.).
+6. **Skills** — highest-priority section for many tech recruiters (see §17.5).
+7. **Work experience** — if none, use bootcamp/portfolio projects and **transferable** prior-career work.
+8. **Other relevant differentiators** — languages, blog, business, noteworthy facts. Personality is fine if it stays relevant.
+
+File type: Word or PDF, **whatever the upload tool / job post asks for**. Simpler and clearer beats ornate. CareerFoundry names Canva / resume.io / CakeResume as format helpers, with the same ATS warning.
+
+**Cover letter vs portfolio (CareerFoundry):** letter is a few paragraphs of intro, relevant experience, and motivation. Portfolio shows skills in action (projects, images, files). Both belong as links on the resume.
+
+### 17.3 Format (Enhancv)
+
+- Structure like an algorithm: each block leads logically to the next.
+- **Reverse chronological** for deep same-track experience. **Hybrid** if the story is diverse (skills/projects deserve equal weight with jobs).
+- Header: name, location, contacts. Technical roles: **GitHub**. IT/manager roles: **LinkedIn**.
+- **1 page** is the recruiter favorite to scan. **2 pages max**, and only with **>5 years** in the industry. Everything on the page must be relevant to that job.
+- Font 10–12 pt. Modern ATS-safe sans serifs: Lato, Rubik, Bitter, Arial.
+- Enhancv recommends **1 in** margins (stricter than Harvard’s 0.75 / 0.5 in floors). For this repo, keep Harvard-readable whitespace; do not go under 0.5 in.
+- Save as **PDF** so it renders the same everywhere.
+- Match local market norms (e.g. Canadian layouts can differ).
+
+**Sections Enhancv wants on a tech resume:** technical skills; projects/portfolio; work experience; education and certifications; professional summary.
+
+**What recruiters look for:** relevant languages/tools; project experience; problem-solving; adaptability / learning new tech; team collaboration.
+
+### 17.4 Experience bullets — quantify (Enhancv)
+
+Research the company first (product, stack, whether they are stabilizing vs shipping features under funding pressure). Rearrange past work so it looks like **part of their solution**.
+
+Formula: **Accomplished [A] as measured in [B] by doing [C].**
+
+Example pattern: on a 3-engineer unit, built a messaging platform optimized for 10M+ daily active users.
+
+Also:
+
+- Mix **industry keywords** (for ATS) and **buzzwords that are actually true**. Don’t fake a technology. Don’t stuff jargon until it sounds fake.
+- If the posting names a specific stack, weave it in honestly.
+- End a role with a compact **“Technology used daily: …”** line when it saves a duplicate skills dump.
+- Action verbs (`Led`, `Developed`, `Designed`) show agency. First person is implied; don’t write `I`.
+
+**Wrong:** duty list with no outcome (`Designed error analysis solution`).  
+**Right:** team size + what shipped + metric (`Led 9 engineers … reduced development-to-production time 35%`).
+
+Quantify with outcomes such as:
+
+- % traffic or conversion lift from optimization
+- money saved via refactor
+- load-time / latency reduction
+- users added after a feature
+- revenue from a project you led
+- drop in bug reports / quality improvement
+- number of automated tests
+- scale of data managed or analyzed
+- uptime (e.g. 99.9%), downtime cut, throughput, team size, DAU
+
+### 17.5 Skills (both)
+
+Recruiters want **proof**, not a laundry list. Quality over quantity; skills that match the role.
+
+**Hard vs soft (CareerFoundry):**
+
+- Hard = duties of the job (languages, wireframing, CMS reporting, etc.).
+- Soft = communication, project management, leadership, being a teammate. High demand in tech. Career changers should **lead with transferable** soft skills plus evidence.
+
+**How to list (CareerFoundry):**
+
+- Mirror job-ad language.
+- Avoid repeating empty phrases (`experience with`, `proficient in`).
+- Give examples / real projects.
+
+**How to list (Enhancv):**
+
+- Put the **target company’s stack first** (“stack match”).
+- Group with headers: Programming languages / Platforms / Services.
+- Drop outdated tools; keep current in-demand tech.
+- Methodologies count: Agile, DevOps, DataOps, Scrum, Kanban — same rank as frameworks.
+- Leadership roles: emphasize communication, mentoring, project leadership.
+- Don’t list 50+ skills.
+- Soft skills as generic labels (`communication`, `problem solver`) are weak. Prefer **achievement framing**: hackathon → quick thinking; BI error caught → attention to detail; student MVP → teamwork. Learn the company’s culture and keep only matching soft skills.
+
+Hard-skill clusters Enhancv treats as commonly sought: languages (Python, Java, JS); databases (SQL, MongoDB); cloud (AWS, Azure, GCP); DevOps (Docker, Kubernetes, Jenkins); web (HTML, CSS, React, Node); mobile (Swift, Kotlin); ML/AI; cybersecurity; networking; data analysis; testing; sysadmin; Git; big data; blockchain; IoT; robotics; UI/UX; Agile; Jira/Asana.
+
+### 17.6 Entry-level, career change, education (both)
+
+**Career changers / bootcamp (CareerFoundry):** use the resume to show transferable skills and how they apply in the new role. Projects can stand in for jobs.
+
+**Junior / no experience (Enhancv):**
+
+1. **Continuous learner** — current tools, courses, certs matched to the posting (certs or hard-skills section).
+2. **Versatility** — college team projects, conflict mediation, part-time customer work.
+3. **Portfolio** — freelance/low-paid work is acceptable if it produces real projects. State projects/portfolio **prominently**.
+
+**Education (Enhancv):** CS or related degree is common. The more senior the role, the less education matters — put **Experience first** for senior/EM/IT manager. For entry-level: lead with relevant coursework; GPA only if **> 3.0**.
+
+**Certifications (Enhancv):** only relevant or hard-to-get certs (examples: AWS SAA, CISSP, PMP, GCP Professional Cloud Architect, Azure Administrator). Dedicated section if several: name, issuer, year, expiry. Most recent first.
+
+### 17.7 Summary vs objective, extra sections (Enhancv)
+
+Identical skill tags (`React`, `HTML`) don’t distinguish a 10-year frontend from a course completer. The **summary supplies context and impact** (3–5 sentences for experienced people).
+
+A strong summary includes: quantified result, named stack, seniority/scope, a real goal — not “passionate about solutions and eager to contribute.”
+
+**Objective** (3 sentences): for new grads and career switchers; merge your growth goal with what the company needs.
+
+**Projects section** (best extra section for tech): name, dates, one-line role, then bullets of contributions and outcomes. Alternatives: one standout project in the summary, or folded into experience. Side projects signal ongoing learning.
+
+Other extras (languages, hobbies) only if they help **this** job. CareerFoundry’s “ask me about” / personality block is fine **below** skills, tools, and education — never above them.
+
+**Per-application algorithm (Enhancv):** keep **one core resume** + tailored copies (not five unrelated documents). Each apply: (1) customize summary + bullets, (2) optional personality/volunteer/community, (3) reorder skills so the job’s tools are first.
+
+### 17.8 Conflicts with Harvard MCS
+
+Use these when generating for this repo:
+
+| Topic | Harvard MCS | CareerFoundry / Enhancv | Use here |
+| --- | --- | --- | --- |
+| Length | 1 page for BA/MA; 2 if senior/PhD | 1 page preferred; 2 only if >5 years | **1 page** unless the role clearly needs 2 |
+| Margins | ≥ 0.75 in (GSAS); ≥ 0.5 in (PhD) | Enhancv: 1 in | Stay **≥ 0.75 in** if possible |
+| Color / skill bars / logos | Avoid boxes, color, shading | Some examples use bars/color; both still warn ATS | **No skill bars, photos, or heavy color** |
+| Templates | GSAS discourages templates | Both sell/show builders | Fine for drafting; output must parse as plain text |
+| Summary | Optional (HES career-changer) | CareerFoundry: 1–2 sentences; Enhancv: 3–5 for seniors | Short summary OK for tech; don’t steal experience space |
+| Address | Often city + campus mail | Street only if location-specific | City/region + email + phone + GitHub |
+| Pronouns / full sentences | No `I`; phrases not sentences | Same implied first person | Keep Harvard: phrases, action verbs |
+
+### 17.9 Key takeaways (Enhancv recap)
+
+- Tell a problem-solver story, not a skill dump.
+- Show impact with numbers.
+- Format so a recruiter’s eye hits the right blocks.
+- Give real-world context so stack keywords aren’t empty.
+- Study the company’s stack, culture, and product pain; write the resume as an answer to that.
+
+---
+
+## 18. Implementation notes (tech overlay)
+
+On top of §16, for software / data / engineering / design applications:
+
+- Maintain a **core resume** and a **per-job variant** (summary, bullets, skill order).
+- Skills: grouped, **job stack first**, current tools only, methodologies included.
+- Every tech bullet: outcome + metric + method/stack when possible.
+- GitHub (and portfolio) in the header for IC engineering roles.
+- Projects section when jobs alone don’t prove the stack.
+- No fake technologies. No 50-skill laundry lists. No skill-level bars.
+- Career-changer / thin experience: projects + transferable prior work, not empty internships.
+- Put **years of relevant experience** (and management years, if targeting EM) where a recruiter sees them in ~10 seconds.
+- State **location / remote / hybrid / relocate** explicitly.
+- No photos, columns, or decorative design (ATS + discrimination).
+- Present tense for current role; past tense for past roles and finished work.
+- Engineers: name the language/stack on each project; GitHub in the header.
+- Skip waffle objectives; skip basic tools (Word, Google Docs) and generic hobbies.
+
+---
+
+## 19. FAANG / Big Tech resumes (IGotAnOffer)
+
+Source: [Tech Resume Examples](https://igotanoffer.com/blogs/tech/tech-resume-examples) (2026-08-13). Built from FAANG recruiters and coaches (including Cody H., ex-Google recruiter now at LinkedIn; Candace B.; Meta EM John Z.). FAANG/MAANG acceptance is often **under 1%**; most candidates die at resume screen.
+
+Many real resumes that got Google/Meta/Amazon interviews **do not** match one template. Takeaway: several layouts can work if skills and impact are obvious. Still follow the rules below unless a working example clearly justifies an exception.
+
+### 19.1 Seven recruiter rules
+
+1. **Answer the recruiter in the first ~10 seconds.** They want **years of role-relevant experience**. For management roles, also **years of people-management**. Do not bury this. Optional: a short bullet block at the top with those facts.
+2. **Prime real estate at the top.** Traditional section order is safe, not mandatory. One recruiter pattern: **two bullet summaries** at the top — key facts + most impressive achievements — then the rest of the resume.
+3. **No design features.** Pictures, **columns**, photos, fancy layouts can break ATS. Skip a photo (ATS + anti-discrimination norms in most countries). Product designers are the only group with a weak case for visual flair; still keep it parseable.
+4. **Locations you will work.** Recruiter-inbound roles need this. Instead of only `San Francisco`, write something like `Locations: San Francisco | Remote | Hybrid within 30 miles of the Bay Area`. Say if you will relocate.
+5. **No waffle.** Vague lines like “Experienced engineer passionate about making great products” waste space. Specific: how many years, which products.
+6. **Numbers tell a better story** than adjectives. Downloads, days early, team size, SNR improvement, etc. Without numbers, impact is hard to score.
+7. **Skills (or a “technology snapshot”)** to land ATS keywords and let a recruiter check requirements fast — without stuffing every sentence.
+
+### 19.2 Skills FAANG screens for (any tech resume)
+
+Role-specific tools still come from the job ad. Across tech they also look for:
+
+1. **Leadership** even for IC roles (path to lead). If work is thin, use projects or recent university examples.
+2. **Communication** — cross-functional teams; for managers, stakeholder alignment.
+3. **Data analysis** — engineers (perf, debug, UX, monitoring) and PMs/TPMs (decisions vs business metrics). Quantify past work.
+4. **Facilitation** (managers) — unblocked a project, prevented a bottleneck, improved a process.
+5. **System design** (FAANG engineering) — architecture, efficiency, scalability, performance. Put it where it is visible.
+6. **Engineering judgment** even for some non-eng roles (e.g. Google PMs: technical trade-offs; some PM posts want basic coding).
+
+### 19.3 What the real FAANG resumes teach
+
+Patterns called out on resumes that reached Amazon, Google, Meta, X/Twitter, Walmart, Deliveroo, Crunchyroll, Audible:
+
+- **Cherry-pick.** One page of only the strongest bullets beats a dump of everything. Every line should be impressive.
+- **≥1 metric per strong bullet** when possible. “Revised dashboards to improve SNR” is weaker than *how much*.
+- Put **target-company-relevant** experience first (e.g. AWS cloud work at the top for Amazon).
+- Match **job-ad skills/tools** (Agile near the top if the posting lists it).
+- **Action verbs** that match the role (`Launched`, `Grew`, `Built`, `Founded`, `Reduced`, `Created`, `Designed`, `Fixed`). Repeat a verb like `Launched` if it is the job’s signal.
+- Formatting 100% consistent, simple, lots of white space. Prefer **1-line bullets**, two lines max.
+- Freshers: **Education first** (Google’s advice for new grads / ~1–2 years). List relevant courses. Fill the experience gap with **Projects**.
+- Unknown prior employer: **one-line explainer** of what the company is.
+- Per-role **tech used** shows how the stack evolved.
+- **Languages** (human) can signal communication — don’t assume they are irrelevant for engineering.
+- **Open-source** shows engineering interest and collaboration.
+- Length: 1–2 pages is what they recommend. A 1.5-page resume with 16+ years is praised. **4- and 5-page** resumes still got interviews, but coaches say cut them — long intros should become bullets.
+- Brand-name employers help; they do not replace quantified impact.
+- Target a **level above** the posting’s scope if competing in Big Tech; titles do not map 1:1 (a VP elsewhere may still be Meta EM I/II). Communicate **scope**, not just title.
+
+### 19.4 Section-by-section (their FAANG template)
+
+Research the posting and company first: which profile they want, 2–3 core responsibilities you can prove with numbers, verbs/phrases to mirror, company values (e.g. Meta’s values — volunteering under Interests if it is genuine). Usually a few strategic edits per job, not a rewrite.
+
+**Design objective:** maximum information, clear, professional. A second goal of “look creative” can hurt. No photo.
+
+**Suggested sections:** Personal information → Work experience → Education → Skills/Tools → Interests/Extracurricular. New grads: Education before Experience (Google). Optional **Awards & Leadership** (Google’s template name); skip it if empty.
+
+**Personal information**
+
+- Bigger font for the name. Name, email, phone, city/region. LinkedIn; **GitHub if engineering**.
+- Do not title the section. No street address (unnecessary and unsafe). No photo, DOB, or gender unless asked. Do not label `email:` / `tel:`.
+
+**Work experience**
+
+- Reverse chronological. Actions, not duty lists. Start with verbs tied to leadership, communication, facilitation, data, etc.
+- Laszlo Bock / Google **X, Y, Z**: *Accomplished [X] as measured by [Y] by doing [Z]*. Example: “Decreased server response time by 30% by implementing machine learning.”
+- Current job: **present tense** except completed achievements. Past jobs and finished work: **past tense**.
+- Engineers: programming language **per project** (Google recommendation).
+- Match job-ad language; include keywords naturally; show a **range** of skills for EM/TPM-style roles.
+- Don’t be shy. Don’t be vague. Don’t turn the page into a math worksheet. Don’t sprinkle empty buzzwords.
+
+**Education**
+
+- Highest degree first; each degree: name, school, dates. Recent grads: relevant subjects.
+- They list GPA and other tests (SAT, GMAT) as intellect signals. For this repo, follow Harvard: **SAT/ACT only if the employer asks**; GPA if strong.
+- Awards: include **selectivity** (`2 awards / 1,000 students`).
+- Thin tech experience: bootcamps + project links, or relevant online courses.
+- No degree is not an automatic reject; then use post-school qualifications. Drop high school once you have a degree. Thesis/dissertation only if a recent grad, summarized in plain language.
+
+**Awards & Leadership** (outside day job)
+
+- Prefer 2–3 strong bullets. Contextualize rank (`1st of 22`). Omit the whole section if weak.
+- No school awards if graduation was **>10 years** ago. No filler (`employee of the week`).
+
+**Skills & interests**
+
+- List tools, methods, technologies so a recruiter can tick requirements. Engineers: only **role-relevant** hard skills. PMs may add languages / pet projects as soft-skill/personality signals.
+- Save vertical space by listing skills in **sentences**, not one-per-line bullets.
+- No generic hobbies (`watching Netflix`). No universal tools (`Google Docs`, `MS Word`).
+
+**Proof**
+
+- Grammar tool + proofread; proofread **again after every tweak**. Read top-to-bottom then **reverse** for spelling.
+- PDF unless the posting says otherwise. Confirm it opens with correct layout on Mac and PC.
+- Get a human (ideally a tech recruiter) to review. Typos = the resume is a broken product.
+
+### 19.5 Pre-send checklist (IGotAnOffer)
+
+- Does this version match the **job description’s** candidate type?
+- One page (or two only if experience justifies it)? Formatting consistent? Enough white space?
+- Contact details correct? Engineers: languages listed?
+- Actions not duties? Impact quantified? Range of relevant skills?
+- Awards/leadership post-university if you graduated >10 years ago?
+- Programming languages and relevant tools listed? Interests actually distinctive?
+- Proofread since last edit? Feedback incorporated? Saved as PDF?
+
+### 19.6 Conflicts with Harvard MCS / earlier tech guides
+
+| Topic | IGotAnOffer | Use here |
+| --- | --- | --- |
+| Columns / two-column layout | Avoid; breaks ATS | **Single column**; dates on the right of a row is OK |
+| Length | 1 page preferred; 2 if earned; some 4–5 page FAANG resumes still worked | **1 page** default; 2 only if senior and dense |
+| Top summary bullets | Recruiter-preferred “prime real estate” | OK if they are **specific** (years, stack, 2–3 metrics), not a fluffy objective |
+| Street address | Never | City/region only |
+| GPA / SAT | List as intellect proof | GPA if strong; **no SAT unless asked** (Harvard) |
+| Color on titles | One winning Meta EM used green titles | **No color** (Harvard / ATS) |
+| Education order | New grads: education first | Same as Harvard College samples |

@@ -1,0 +1,157 @@
+.layout2-sheet {
+  --layout2-blue: #3d7ea6;
+  --layout2-ink: #222;
+  --layout2-muted: #5a5a5a;
+  --layout2-soft: #6e6e6e;
+
+  box-sizing: border-box;
+  width: 8.5in;
+  min-height: 22in;
+  padding: 0.5in 0.5in 0.45in;
+  background-color: #fff;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent calc(11in - 1px),
+    #c4c4c4 calc(11in - 1px),
+    #c4c4c4 11in
+  );
+  color: var(--layout2-ink);
+  font-family: 'Inter', sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.35;
+  font-synthesis: none;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+.layout2-sheet h1,
+.layout2-sheet h2,
+.layout2-sheet h3,
+.layout2-sheet p,
+.layout2-sheet ul {
+  margin: 0;
+}
+
+.layout2-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+.layout2-name {
+  color: var(--layout2-blue);
+  font-size: 28pt;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.layout2-tagline {
+  margin-top: 8px;
+  max-width: 28em;
+  color: var(--layout2-muted);
+  font-size: 10.5pt;
+  line-height: 1.4;
+}
+
+.layout2-contact {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  font-size: 9pt;
+  line-height: 1.55;
+  color: var(--layout2-muted);
+}
+
+.layout2-contact a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.layout2-contact a:hover {
+  text-decoration: underline;
+}
+
+.layout2-body {
+  display: grid;
+  grid-template-columns: 1.55fr 1fr;
+  gap: 28px;
+}
+
+.layout2-section-title {
+  margin-bottom: 10px;
+  color: var(--layout2-blue);
+  font-size: 11pt;
+  font-weight: 700;
+}
+
+.layout2-job + .layout2-job,
+.layout2-project + .layout2-project,
+.layout2-edu + .layout2-edu,
+.layout2-skill-group + .layout2-skill-group,
+.layout2-sidebar section + section {
+  margin-top: 12px;
+}
+
+.layout2-job-heading {
+  margin-bottom: 4px;
+  font-size: 9.75pt;
+}
+
+.layout2-job-role,
+.layout2-job-company {
+  font-weight: 700;
+  color: var(--layout2-ink);
+}
+
+.layout2-job-dates {
+  font-weight: 400;
+  color: var(--layout2-muted);
+}
+
+.layout2-bullets {
+  padding-left: 16px;
+  color: var(--layout2-soft);
+}
+
+.layout2-bullets li + li {
+  margin-top: 2px;
+}
+
+.layout2-skill-label,
+.layout2-project-name,
+.layout2-edu-school {
+  font-size: 9.5pt;
+  font-weight: 700;
+  color: var(--layout2-ink);
+}
+
+.layout2-project-name a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.layout2-skill-list,
+.layout2-project-desc,
+.layout2-edu-detail {
+  margin-top: 3px;
+  color: var(--layout2-soft);
+  font-size: 9pt;
+  line-height: 1.4;
+}
+
+.layout2-main-extra {
+  margin-top: 18px;
+}
+
+@media print {
+  .layout2-sheet {
+    width: auto;
+    min-height: auto;
+    box-shadow: none;
+    background-image: none;
+  }
+}

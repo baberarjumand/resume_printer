@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  color-scheme: light;
+}
+
+body {
+  background: #d6d6d6;
+  color: #1d1d1d;
+}
+
+@media print {
+  html,
+  body,
+  #root {
+    background: #fff;
+    height: auto;
+    min-height: 0;
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+}

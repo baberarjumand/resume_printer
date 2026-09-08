@@ -1,0 +1,156 @@
+{
+  "name": "Baber Arjumand",
+  "headline": "Software Engineer | Frontend Lead",
+  "location": "Islamabad, Pakistan",
+  "availability": "Remote worldwide · Delivered for teams in the US, UK, Canada, Australia, and the Gulf",
+  "links": {
+    "website": "https://baber.dev/",
+    "email": "baber.arjumand@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/baberarjumand/",
+    "github": "https://github.com/baberarjumand"
+  },
+  "summary": {
+    "label": "Summary",
+    "text": "Software engineer and frontend lead with over 6 years building production web products."
+  },
+  "highlights": {
+    "label": "Summary",
+    "items": [
+      "Over 6 years building production web and mobile products; 4 years as Front End Lead and CTO.",
+      "Shipped cross-border payment, Web3 asset, and AI messaging platforms to release.",
+      "Owns system design, Go and REST APIs, CI/CD, automated testing, and iOS and Android release."
+    ]
+  },
+  "skills": {
+    "label": "Technical Skills",
+    "items": [
+      {
+        "name": "Languages",
+        "skills": ["TypeScript", "JavaScript", "Python", "Go", "Java", "SQL", "HTML", "CSS"]
+      },
+      {
+        "name": "Frontend",
+        "skills": ["React", "Next.js", "Angular", "Ionic", "Tailwind CSS", "Material UI", "Redux", "Jotai"]
+      },
+      {
+        "name": "Backend and data",
+        "skills": ["Node.js", "Express", "NestJS", "Spring Boot", "REST APIs", "PostgreSQL", "MongoDB"]
+      },
+      {
+        "name": "Cloud and delivery",
+        "skills": ["AWS", "Firebase", "Heroku", "CI/CD", "Git", "Datadog", "Agile and Scrum", "System design"]
+      }
+    ]
+  },
+  "experience": {
+    "label": "Professional Experience",
+    "items": [
+      {
+        "role": "Founder",
+        "company": "Qaari.net",
+        "companyWebsite": "https://qaari.net",
+        "location": "Islamabad, Pakistan",
+        "workMode": "Remote",
+        "startDate": { "month": 7, "year": 2024 },
+        "endDate": "Present",
+        "bullets": [
+          "Operate a marketplace pairing students with private Quran teachers as sole product owner."
+        ],
+        "tech": ["React", "Node.js", "Tailwind CSS"]
+      },
+      {
+        "role": "Front End Lead",
+        "company": "AeraTech",
+        "location": "London, United Kingdom",
+        "workMode": "Remote",
+        "startDate": { "month": 11, "year": 2024 },
+        "endDate": { "month": 6, "year": 2025 },
+        "bullets": [
+          "Architected a B2B cross-border payment platform from concept to alpha in 8 months.",
+          "Integrated Mastercard Digital Asset Solutions for institutional cross-border settlement.",
+          "Consolidated multi-branch corporate liquidity into one real-time dashboard."
+        ],
+        "tech": ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Python", "Firebase"]
+      },
+      {
+        "role": "Software Engineer, Frontend",
+        "company": "Connectly.ai",
+        "location": "San Francisco, CA",
+        "workMode": "Remote",
+        "startDate": { "month": 6, "year": 2024 },
+        "endDate": { "month": 10, "year": 2024 },
+        "bullets": [
+          "Delivered campaign features reaching customers across 3 channels: WhatsApp, Messenger, Discord.",
+          "Engineered Go and PostgreSQL services on AWS for high-concurrency messaging workloads.",
+          "Migrated the customer inbox from Redux to Jotai, cutting state-management surface area."
+        ],
+        "tech": ["React", "TypeScript", "Go", "PostgreSQL", "AWS", "Datadog"]
+      },
+      {
+        "role": "Front End Lead",
+        "company": "Tapistri",
+        "location": "United States",
+        "workMode": "Remote",
+        "startDate": { "month": 5, "year": 2022 },
+        "endDate": { "month": 5, "year": 2024 },
+        "bullets": [
+          "Directed frontend architecture for a Web3 network verifying cross-chain assets and NFTs.",
+          "Migrated a legacy Angular codebase to React and Next.js, lifting performance and SEO.",
+          "Engineered multi-wallet authentication ahead of WalletConnect; led a distributed team."
+        ],
+        "tech": ["React", "Next.js", "TypeScript", "NestJS", "Wagmi", "Ethers"]
+      },
+      {
+        "role": "Chief Technology Officer, then Full Stack Engineer",
+        "company": "Bold Tech LLC",
+        "location": "Orlando, FL",
+        "workMode": "Remote",
+        "startDate": { "month": 12, "year": 2020 },
+        "endDate": { "month": 6, "year": 2022 },
+        "bullets": [
+          "Set technical strategy and governed the delivery lifecycle across engineering teams.",
+          "Shipped Ionic apps with in-app subscriptions to the Apple and Google app stores.",
+          "Automated releases with CI/CD pipelines on AWS, Heroku, and Firebase."
+        ],
+        "tech": ["React", "Angular", "Ionic", "Express", "Stripe", "AWS", "Firebase"]
+      }
+    ]
+  },
+  "education": {
+    "label": "Education",
+    "items": [
+      {
+        "qualificationName": "Bachelor of Engineering",
+        "qualificationField": "Electronic and Computer Engineering",
+        "instituteName": "University of Nottingham Malaysia",
+        "instituteLocation": "Semenyih, Malaysia",
+        "startYear": 2010,
+        "endYear": 2013
+      }
+    ]
+  },
+  "certifications": {
+    "label": "Certifications",
+    "items": [
+      {
+        "name": "Oracle Certified Associate, Java SE 7",
+        "issuer": "Oracle",
+        "year": 2013
+      },
+      {
+        "name": "Applied AI Professional Certificate",
+        "issuer": "IBM",
+        "year": 2019
+      }
+    ]
+  },
+  "additional": {
+    "label": "Leadership and Teaching",
+    "items": []
+  },
+  "languages": [
+    { "name": "English", "proficiency": "Native" },
+    { "name": "Urdu", "proficiency": "Native" },
+    { "name": "Hindi", "proficiency": "Full professional" }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "name": "Baber Arjumand",
+  "headline": "Software Engineer | Frontend Lead | Full-Stack Developer",
+  "tagline": "Software Engineer & Frontend Lead — React · TypeScript · Node.js",
+  "location": "Islamabad, Pakistan",
+  "links": {
+    "website": "https://baber.dev/",
+    "email": "baber.arjumand@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/baberarjumand/",
+    "github": "https://github.com/baberarjumand"
+  },
+  "summary": {
+    "label": "Summary",
+    "text": "Software engineer and frontend lead with over 6 years shipping production web and mobile products in React, TypeScript, and Node.js."
+  },
+  "experience": {
+    "label": "Professional Experience",
+    "items": [
+      {
+        "role": "Front End Lead",
+        "company": "AeraTech",
+        "location": "London, United Kingdom",
+        "workMode": "Remote",
+        "startDate": { "month": 11, "year": 2024 },
+        "endDate": { "month": 6, "year": 2025 },
+        "bullets": [
+          "Architected a B2B cross-border payment platform from concept to alpha in React and Tailwind CSS, delivering the full prototype within an 8-month engagement.",
+          "Engineered Node.js, Express, and MongoDB services with Python microservices for financial data analysis and reporting.",
+          "Integrated Mastercard Digital Asset Solutions and shipped a global dashboard giving multinational administrators real-time multi-branch liquidity visibility."
+        ]
+      },
+      {
+        "role": "Software Engineer, Frontend",
+        "company": "Connectly.ai",
+        "location": "San Francisco, CA, United States",
+        "workMode": "Remote",
+        "startDate": { "month": 6, "year": 2024 },
+        "endDate": { "month": 10, "year": 2024 },
+        "bullets": [
+          "Delivered features for an AI conversational commerce platform in React, powering campaigns across 3 channels: WhatsApp, Messenger, and Discord.",
+          "Engineered distributed Go and PostgreSQL services on AWS to sustain high-concurrency messaging workflows.",
+          "Migrated the unified customer inbox from Redux to Jotai, cutting state-management complexity."
+        ]
+      },
+      {
+        "role": "Front End Lead",
+        "company": "Tapistri",
+        "location": "United States",
+        "workMode": "Remote",
+        "startDate": { "month": 5, "year": 2022 },
+        "endDate": { "month": 5, "year": 2024 },
+        "bullets": [
+          "Directed frontend architecture for a Web3 social platform aggregating and verifying cross-chain digital assets and NFTs, leading a distributed engineering team.",
+          "Migrated the legacy Angular codebase to React and Next.js, improving load performance, SEO, and scalability.",
+          "Engineered a proprietary multi-wallet authentication solution ahead of WalletConnect, plus scrapers backing a searchable NFT database."
+        ]
+      },
+      {
+        "role": "Senior Director of Technology",
+        "company": "East Coast Digital Marketing",
+        "location": "Orlando, FL, United States",
+        "workMode": "Remote",
+        "startDate": { "month": 6, "year": 2022 },
+        "endDate": { "month": 2, "year": 2023 },
+        "bullets": [
+          "Directed 4 technical functions — web engineering, UI/UX, IT infrastructure, and digital marketing — across a concurrent client portfolio.",
+          "Supervised offshore teams building React, Angular, and Node.js products, owning budgets, QA, and technical hiring."
+        ]
+      },
+      {
+        "role": "Chief Technology Officer, then Full Stack Engineer",
+        "company": "Bold Tech LLC",
+        "location": "Orlando, FL, United States",
+        "workMode": "Remote",
+        "startDate": { "month": 12, "year": 2020 },
+        "endDate": { "month": 6, "year": 2022 },
+        "bullets": [
+          "Led engineering through the full SDLC with hands-on review, testing standards, and CI/CD on AWS, Heroku, and Firebase.",
+          "Shipped Ionic apps to the Apple and Google stores with in-app subscriptions and Stripe payment integrations."
+        ]
+      },
+      {
+        "role": "Lead Frontend Engineer",
+        "company": "Up Pay",
+        "location": "Sydney, NSW, Australia",
+        "workMode": "Remote",
+        "startDate": { "month": 4, "year": 2020 },
+        "endDate": { "month": 1, "year": 2021 },
+        "bullets": [
+          "Architected an Angular frontend and Spring Boot backend on AWS EC2, integrating Stripe Connect to power a vendor marketplace."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "label": "Technical Skills",
+    "items": [
+      {
+        "name": "Languages",
+        "skills": ["TypeScript", "JavaScript", "Python", "Go", "Java", "SQL"]
+      },
+      {
+        "name": "Frontend",
+        "skills": ["React", "Next.js", "Angular", "Ionic", "Tailwind CSS", "Redux", "Jotai"]
+      },
+      {
+        "name": "Backend & Data",
+        "skills": ["Node.js", "Express", "NestJS", "Spring Boot", "PostgreSQL", "MongoDB"]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "skills": ["AWS", "Firebase", "Heroku", "CI/CD", "Git", "Datadog"]
+      },
+      {
+        "name": "Practices",
+        "skills": ["Agile & Scrum", "SDLC ownership", "Code review", "Automated testing"]
+      }
+    ]
+  },
+  "education": {
+    "label": "Education",
+    "items": [
+      {
+        "qualificationName": "Bachelor of Engineering",
+        "qualificationField": "Electronic & Computer Engineering",
+        "instituteName": "University of Nottingham Malaysia",
+        "instituteLocation": "Semenyih, Malaysia",
+        "startYear": 2010,
+        "endYear": 2013
+      }
+    ]
+  },
+  "certifications": {
+    "label": "Certifications",
+    "items": [
+      {
+        "name": "Oracle Certified Associate, Java SE 7",
+        "issuer": "Oracle",
+        "year": 2013
+      },
+      {
+        "name": "IBM Applied AI Professional Certificate",
+        "issuer": "IBM",
+        "year": 2019
+      },
+      {
+        "name": "JavaScript Algorithms & Data Structures",
+        "issuer": "freeCodeCamp",
+        "year": 2020
+      }
+    ]
+  },
+  "additional": {
+    "label": "Leadership & Teaching",
+    "items": []
+  },
+  "languages": [
+    { "name": "English", "proficiency": "Native" },
+    { "name": "Urdu", "proficiency": "Native" },
+    { "name": "Hindi", "proficiency": "Full professional" }
+  ]
+}
