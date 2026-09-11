@@ -1,0 +1,103 @@
+{
+  "skill_name": "tech-resume-generator",
+  "evals": [
+    {
+      "id": 1,
+      "slug": "general-experienced",
+      "prompt": "I dropped my notes and an old resume in evals/files/alex-rivera/. Use tech-resume-generator to make a general optimized tech resume for me.",
+      "expected_output": "Asks general vs JD (or accepts general), compiles professional_data.md from fixtures only, writes one-page resume JSON + PDF under output/general/ with skills→experience→education, no invented metrics, no street/DOB.",
+      "files": [
+        "evals/files/alex-rivera/notes.md",
+        "evals/files/alex-rivera/old_resume.md"
+      ],
+      "assertions": [
+        "output/professional_data.md exists and mentions Alex Rivera",
+        "A resume JSON exists under output/general/",
+        "Resume JSON validates against the generate_resume_pdf schema",
+        "Header name is Alex Rivera",
+        "Skills section has 2–3 categories",
+        "Experience is reverse-chronological with CloudNine before PixelForge",
+        "Education lists State University only (no fabricated schools)",
+        "No street address, photo, or DOB fields appear in the JSON",
+        "Bullets do not use helped/assisted/responsible for",
+        "No metric appears that is absent from the source fixtures (no invented percentages)",
+        "Sibling PDF exists for the resume JSON when Node/pdf-lib is available"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "jd-tailored-frontend",
+      "prompt": "Using evals/files/alex-rivera/ and the posting in evals/files/jobs/acme-frontend.md, generate a JD-tailored tech resume for the Acme Frontend Engineer role.",
+      "expected_output": "Tailored JSON under output/tailored/acme-frontend/ (or similar slug) that emphasizes React/TypeScript/accessibility from the JD only where true in Alex's data; still one page; no invented Acme employment.",
+      "files": [
+        "evals/files/alex-rivera/notes.md",
+        "evals/files/alex-rivera/old_resume.md",
+        "evals/files/jobs/acme-frontend.md"
+      ],
+      "assertions": [
+        "A resume JSON exists under output/tailored/",
+        "Resume JSON validates against the generate_resume_pdf schema",
+        "Skills or bullets mention React and TypeScript",
+        "Does not claim employment at Acme",
+        "Does not invent accessibility metrics not in fixtures",
+        "Header links remain Alex's real links from fixtures",
+        "Experience order still newest-first"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "student-edge-education-first",
+      "prompt": "hey can you whip up a resume from evals/files/jordan-lee-student/? i'm still in school, internship hunting",
+      "expected_output": "Student-appropriate one-pager: education may be emphasized; projects allowed; no fake full-time titles; facts only from Jordan fixtures.",
+      "files": [
+        "evals/files/jordan-lee-student/notes.md"
+      ],
+      "assertions": [
+        "output/professional_data.md mentions Jordan Lee",
+        "A resume JSON exists under output/general/ or output/tailored/",
+        "Resume JSON validates against the generate_resume_pdf schema",
+        "Education includes Riverside Community College",
+        "Does not invent FAANG employment",
+        "Does not list Expert/Beginner proficiency labels",
+        "No street address in the JSON"
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "thin-data-junior",
+      "prompt": "I only have this sparse dump in evals/files/sam-ortiz-thin/. Make a general junior backend tech resume. Do not invent metrics.",
+      "expected_output": "Honest thin one-pager from Sam's sparse notes; qualitative bullets OK; no fabricated percentages or employers; JSON validates.",
+      "files": [
+        "evals/files/sam-ortiz-thin/notes.md"
+      ],
+      "assertions": [
+        "output/professional_data.md mentions Sam Ortiz",
+        "A resume JSON exists under output/general/",
+        "Resume JSON validates against the generate_resume_pdf schema",
+        "Header name is Sam Ortiz",
+        "Does not invent employers beyond the notes",
+        "No invented percentage metrics",
+        "No street address, photo, or DOB in the JSON"
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "jd-tailored-overflow",
+      "prompt": "Using evals/files/morgan-blake-long/ and evals/files/jobs/contoso-platform.md, generate a JD-tailored one-page tech resume. Cut older/weaker content if needed so the PDF has no layout overflow.",
+      "expected_output": "Tailored Contoso-oriented one-pager under output/tailored/; emphasizes K8s/Terraform/AWS/Go where true; may omit Campus IT; PDF fits one page without overflow; no Contoso employment claimed.",
+      "files": [
+        "evals/files/morgan-blake-long/notes.md",
+        "evals/files/jobs/contoso-platform.md"
+      ],
+      "assertions": [
+        "A resume JSON exists under output/tailored/",
+        "Resume JSON validates against the generate_resume_pdf schema",
+        "Skills or bullets mention Kubernetes or Terraform or AWS",
+        "Does not claim employment at Contoso",
+        "Does not invent employers beyond Morgan fixtures",
+        "Sibling PDF exists when Node/pdf-lib is available",
+        "PDF generation reports no layout overflow (remaining space ≥ 0) when rendered"
+      ]
+    }
+  ]
+}

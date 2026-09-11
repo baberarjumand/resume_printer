@@ -14,22 +14,36 @@ import { ResumeLayout4 } from './components/ResumeLayout4.tsx'
 import type { ResumeData } from './types/resume.ts'
 import './App.css'
 
-type LayoutId = '1' | '2' | '3' | '4'
+type LayoutId = '1' | '2' | '3' | '4' | '5'
 type PageCount = '1' | '2'
+type Paper = 'a4' | 'letter'
 
-const LAYOUTS: { id: LayoutId; label: string }[] = [
-  { id: '1', label: 'Layout 1' },
-  { id: '2', label: 'Layout 2' },
-  { id: '3', label: 'Layout 3' },
-  { id: '4', label: 'Layout 4' },
+const LAYOUTS: {
+  id: LayoutId
+  label: string
+  pageCounts: PageCount[]
+  paper: Paper
+}[] = [
+  { id: '1', label: 'Layout 1', pageCounts: ['1', '2'], paper: 'a4' },
+  { id: '2', label: 'Layout 2', pageCounts: ['1', '2'], paper: 'letter' },
+  { id: '3', label: 'Layout 3', pageCounts: ['1', '2'], paper: 'a4' },
+  { id: '4', label: 'Layout 4', pageCounts: ['1', '2'], paper: 'letter' },
+  { id: '5', label: 'Layout 5', pageCounts: ['1'], paper: 'letter' },
 ]
 
-const PAGE_COUNTS: { id: PageCount; label: string }[] = [
-  { id: '1', label: '1 page' },
-  { id: '2', label: '2 pages' },
-]
+const PAGE_LABELS: Record<PageCount, string> = {
+  '1': '1 page',
+  '2': '2 pages',
+}
 
-const resumes: Record<LayoutId, Record<PageCount, ResumeData>> = {
+const SKILL_PDF_HREF =
+  '/tech-resume-generator_files/output/skill-general-1page.pdf'
+const SKILL_PDF_NAME = 'skill-general-1page.pdf'
+
+const resumes: Record<
+  Exclude<LayoutId, '5'>,
+  Record<PageCount, ResumeData>
+> = {
   '1': {
     '1': layout1OnePage as ResumeData,
     '2': layout1TwoPage as ResumeData,
@@ -58,9 +72,30 @@ function hashFor(layout: LayoutId, pages: PageCount): string {
 }
 
 function readSelectionFromHash(): Selection {
-  const match = /^#layout([1234])-([12])page$/.exec(window.location.hash)
+  const match = /^#layout([1-5])-([12])page$/.exec(window.location.hash)
   if (!match) return { layout: '1', pages: '1' }
-  return { layout: match[1] as LayoutId, pages: match[2] as PageCount }
+  const layout = match[1] as LayoutId
+  const pages = match[2] as PageCount
+  if (layout === '5') return { layout: '5', pages: '1' }
+  return { layout, pages }
+}
+
+function wantsLiveRender(): boolean {
+  return (
+    typeof window !== 'undefined' &&
+    new URLSearchParams(window.location.search).has('render')
+  )
+}
+
+function pdfFor(layout: LayoutId, pages: PageCount): { href: string; name: string } {
+  if (layout === '5') {
+    return { href: SKILL_PDF_HREF, name: SKILL_PDF_NAME }
+  }
+  const name = `layout${layout}-${pages}page.pdf`
+  return {
+    href: `/tech-resume-generator_files/output/${name}`,
+    name,
+  }
 }
 
 function App() {
@@ -69,9 +104,13 @@ function App() {
       ? { layout: '1', pages: '1' }
       : readSelectionFromHash(),
   )
+  const [liveRender, setLiveRender] = useState(() => wantsLiveRender())
 
   useEffect(() => {
-    const sync = () => setSelection(readSelectionFromHash())
+    const sync = () => {
+      setSelection(readSelectionFromHash())
+      setLiveRender(wantsLiveRender())
+    }
     window.addEventListener('hashchange', sync)
     window.addEventListener('popstate', sync)
     return () => {
@@ -81,7 +120,9 @@ function App() {
   }, [])
 
   const { layout, pages } = selection
-  const resume = resumes[layout][pages]
+  const meta = LAYOUTS.find((item) => item.id === layout)!
+  const { href: pdfHref, name: pdfName } = pdfFor(layout, pages)
+  const resume = layout === '5' ? null : resumes[layout][pages]
 
   return (
     <div className={`app app-layout-${layout}`}>
@@ -90,12 +131,12 @@ function App() {
           <div className="layout-nav-group" key={item.id}>
             <span className="layout-nav-label">{item.label}</span>
             <div className="layout-nav-options">
-              {PAGE_COUNTS.map((option) => {
-                const active = layout === item.id && pages === option.id
+              {item.pageCounts.map((option) => {
+                const active = layout === item.id && pages === option
                 return (
                   <a
-                    key={option.id}
-                    href={hashFor(item.id, option.id)}
+                    key={option}
+                    href={hashFor(item.id, option)}
                     aria-current={active ? 'page' : undefined}
                     className={
                       active
@@ -103,7 +144,7 @@ function App() {
                         : 'layout-nav-link'
                     }
                   >
-                    {option.label}
+                    {PAGE_LABELS[option]}
                   </a>
                 )
               })}
@@ -113,23 +154,33 @@ function App() {
       </nav>
 
       <main className={`preview preview-pages-${pages}`}>
-        {layout === '1' ? <Resume data={resume} /> : null}
-        {layout === '2' ? <ResumeLayout2 data={resume} /> : null}
-        {layout === '3' ? <ResumeLayout3 data={resume} /> : null}
-        {layout === '4' ? (
+        {liveRender && layout === '1' && resume ? <Resume data={resume} /> : null}
+        {liveRender && layout === '2' && resume ? (
+          <ResumeLayout2 data={resume} />
+        ) : null}
+        {liveRender && layout === '3' && resume ? (
+          <ResumeLayout3 data={resume} />
+        ) : null}
+        {liveRender && layout === '4' && resume ? (
           <ResumeLayout4 data={resume} pages={pages === '1' ? 1 : 2} />
+        ) : null}
+        {!liveRender ? (
+          <iframe
+            key={pdfHref}
+            className={`pdf-preview pdf-preview-${meta.paper} pdf-preview-pages-${pages}`}
+            title={`${meta.label} — ${PAGE_LABELS[pages]} PDF`}
+            src={pdfHref}
+          />
         ) : null}
       </main>
 
-      <div className="print-bar no-print">
-        <button
-          type="button"
-          className="print-button"
-          onClick={() => window.print()}
-        >
-          Print
-        </button>
-      </div>
+      {liveRender ? null : (
+        <div className="print-bar no-print">
+          <a className="print-button" href={pdfHref} download={pdfName}>
+            Download PDF
+          </a>
+        </div>
+      )}
     </div>
   )
 }

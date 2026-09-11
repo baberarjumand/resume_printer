@@ -6,6 +6,11 @@ one shot.
 
 This is a local tool. It is not hosted anywhere.
 
+Resume content and the skill-format one-pager were produced with the
+[tech-resume-generator](https://www.skills.sh/baberarjumand/technical-resume-generator_agent-skill/tech-resume-generator)
+agent skill
+([GitHub](https://github.com/baberarjumand/technical-resume-generator_agent-skill)).
+
 ## Setup
 
 ```bash
@@ -28,9 +33,11 @@ Four visual layouts × two lengths = **eight resumes**:
 | **4** | Letter | Single-column Arial; strictest reading of the guidelines | [`resume-layout4-1page.json`](src/data/resume-layout4-1page.json) | [`resume-layout4-2page.json`](src/data/resume-layout4-2page.json) |
 
 The top nav has a **1 page** and **2 pages** link under each layout. The URL hash records the
-choice, for example `#layout2-1page` or `#layout4-2page`.
+choice, for example `#layout2-1page` or `#layout4-2page`. The preview also links to the matching
+PDF under [`tech-resume-generator_files/output/`](tech-resume-generator_files/output/).
 
-Pre-generated PDFs of every variant live in [`assets/generated_resumes/`](assets/generated_resumes/).
+Pre-generated PDFs of every layout variant (plus the skill general one-pager) live in
+[`tech-resume-generator_files/output/`](tech-resume-generator_files/output/).
 
 ## Data sources
 
@@ -38,6 +45,7 @@ Content is derived from:
 
 - [`@state/extracted_user_data.md`](@state/extracted_user_data.md) — verbose LinkedIn capture
 - [`@state/resume_guidelines.md`](@state/resume_guidelines.md) — Harvard MCS + tech / FAANG writing rules used when generating content
+- LinkedIn PDF snapshots under [`tech-resume-generator_files/user_professional_data/`](tech-resume-generator_files/user_professional_data/)
 
 Each resume is a separate JSON file under [`src/data/`](src/data/). Edit the file for the variant
 you want, save, and the preview hot-reloads.
@@ -100,7 +108,7 @@ Run it after editing any resume JSON.
 ## Print one resume from the browser
 
 1. Open the layout and page length you want; wait until fonts look right.
-2. Click **Print**.
+2. Click **Print**, or use **Download PDF** for the pre-exported file.
 3. In the print dialog:
    - Destination: **Save as PDF**
    - Paper size: **A4** for Layouts 1 and 3, **Letter** for Layouts 2 and 4
@@ -117,7 +125,8 @@ Chrome or Edge give the most reliable result.
 npm run export:pdfs
 ```
 
-Writes (and overwrites) these files under [`assets/generated_resumes/`](assets/generated_resumes/):
+Writes (and overwrites) these files under
+[`tech-resume-generator_files/output/`](tech-resume-generator_files/output/):
 
 - `layout1-1page.pdf` … `layout4-2page.pdf`
 
@@ -136,10 +145,11 @@ file does not land on the expected page count.
 | [`src/data/`](src/data/) | Eight resume JSON files |
 | [`scripts/measure-pages.mjs`](scripts/measure-pages.mjs) | Page-fit checker (`npm run check:pages`) |
 | [`scripts/export-pdfs.mjs`](scripts/export-pdfs.mjs) | Bulk PDF export |
-| [`assets/user_data/`](assets/user_data/) | Source LinkedIn PDF snapshots |
+| [`tech-resume-generator_files/user_professional_data/`](tech-resume-generator_files/user_professional_data/) | Source LinkedIn PDF snapshots |
+| [`tech-resume-generator_files/output/`](tech-resume-generator_files/output/) | Exported PDFs + skill output |
 | [`assets/resume_layouts/`](assets/resume_layouts/) | Sample layout references |
-| [`assets/generated_resumes/`](assets/generated_resumes/) | Exported PDFs |
 | [`@state/`](@state/) | Extracted data + writing guidelines |
+| [`.agents/skills/tech-resume-generator/`](.agents/skills/tech-resume-generator/) | Installed [tech-resume-generator](https://github.com/baberarjumand/technical-resume-generator_agent-skill) skill |
 
 ## Scripts
 
@@ -149,5 +159,5 @@ file does not land on the expected page count.
 | `npm run build` | Type-check and production build |
 | `npm run lint` | Oxlint |
 | `npm run check:pages` | Measure all eight variants; fail on overflow |
-| `npm run export:pdfs` | Rebuild and write all eight PDFs to `assets/generated_resumes/` |
+| `npm run export:pdfs` | Rebuild and write all eight PDFs to `tech-resume-generator_files/output/` |
 | `npm run preview` | Serve the production build |

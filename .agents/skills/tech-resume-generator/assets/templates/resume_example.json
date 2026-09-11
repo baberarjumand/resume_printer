@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Jane Doe Resume",
+    "author": "Jane Doe",
+    "subject": "General tech resume example",
+    "language": "en-US"
+  },
+  "header": {
+    "name": "Jane Doe",
+    "headline": "Software Engineer  |  Full-Stack  |  Distributed Systems",
+    "location": "Austin, TX, United States",
+    "phone": {
+      "label": "+15125550123",
+      "href": "tel:+15125550123"
+    },
+    "email": {
+      "label": "jane.doe@example.com",
+      "href": "mailto:jane.doe@example.com"
+    }
+  },
+  "links": [
+    {
+      "label": "janedoe.dev",
+      "href": "https://janedoe.dev"
+    },
+    {
+      "label": "linkedin.com/in/janedoe/",
+      "href": "https://www.linkedin.com/in/janedoe/"
+    },
+    {
+      "label": "github.com/janedoe",
+      "href": "https://github.com/janedoe"
+    }
+  ],
+  "skills": [
+    {
+      "label": "Languages",
+      "items": "TypeScript, JavaScript, Python, Go, SQL"
+    },
+    {
+      "label": "Frontend",
+      "items": "React, Next.js, Tailwind CSS"
+    },
+    {
+      "label": "Backend and cloud",
+      "items": "Node.js, PostgreSQL, Redis, AWS, Docker, Kubernetes"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Example Cloud Co",
+      "dates": "Jan 2022 - Present",
+      "place": "Austin, TX  |  Hybrid",
+      "bullets": [
+        "Own the React and TypeScript customer dashboard used by 40k monthly active users.",
+        "Cut p95 API latency from 420ms to 180ms by introducing Redis caching and query batching in Node.js.",
+        "Led a 4-engineer squad shipping multi-tenant SSO with Okta and AWS Cognito."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Startup Labs",
+      "dates": "Jun 2019 - Dec 2021",
+      "place": "Remote",
+      "bullets": [
+        "Built Next.js and PostgreSQL billing flows that processed $2.1M annual recurring revenue.",
+        "Automated release checks in GitHub Actions, reducing production rollbacks by 35%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.S. Computer Science",
+      "school": "Example State University",
+      "year": "2019"
+    }
+  ]
+}

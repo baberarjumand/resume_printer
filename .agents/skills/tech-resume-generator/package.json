@@ -1,0 +1,22 @@
+{
+  "name": "tech-resume-generator",
+  "private": true,
+  "version": "1.4.0",
+  "type": "module",
+  "description": "Agent skill: generate optimized one-page ATS-safe tech resumes (JSON + PDF)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "generate-resume": "node scripts/generate_resume_pdf.mjs",
+    "init-workspace": "node scripts/init_workspace.mjs",
+    "extract-user-data": "python3 scripts/extract_user_data.py",
+    "eval:grade": "python3 scripts/eval_grade.py --evals evals/evals.json",
+    "eval:aggregate": "python3 scripts/eval_aggregate.py",
+    "download-samples": "python3 scripts/download_sample_resumes.py"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}

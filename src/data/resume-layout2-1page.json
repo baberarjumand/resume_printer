@@ -1,6 +1,6 @@
 {
   "name": "Baber Arjumand",
-  "headline": "Software Engineer | Frontend Lead",
+  "headline": "Software Engineer | Frontend Lead | Full-Stack",
   "tagline": "Frontend Lead — React, TypeScript, Node.js",
   "location": "Islamabad, Pakistan",
   "links": {
@@ -17,6 +17,18 @@
     "label": "Experience",
     "items": [
       {
+        "role": "Founder",
+        "company": "Qaari.net",
+        "companyWebsite": "https://qaari.net",
+        "location": "Islamabad, Pakistan",
+        "workMode": "Remote",
+        "startDate": { "month": 7, "year": 2024 },
+        "endDate": "Present",
+        "bullets": [
+          "Own product and engineering for a marketplace matching students with private Quran teachers across booking, scheduling, and onboarding."
+        ]
+      },
+      {
         "role": "Front End Lead",
         "company": "AeraTech",
         "location": "London, United Kingdom",
@@ -24,7 +36,7 @@
         "startDate": { "month": 11, "year": 2024 },
         "endDate": { "month": 6, "year": 2025 },
         "bullets": [
-          "Architected a B2B cross-border payment platform from concept to alpha in React and Tailwind CSS.",
+          "Architected a B2B cross-border payment platform from concept to alpha in 8 months using React and Tailwind CSS.",
           "Engineered Node.js, Express, and MongoDB services with Python microservices for financial reporting.",
           "Integrated Mastercard Digital Asset Solutions and shipped a real-time multi-branch liquidity dashboard."
         ]
@@ -37,9 +49,8 @@
         "startDate": { "month": 6, "year": 2024 },
         "endDate": { "month": 10, "year": 2024 },
         "bullets": [
-          "Built features for an AI conversational commerce platform in React, spanning 3 channels: WhatsApp, Messenger, and Discord.",
-          "Engineered Go and PostgreSQL services on AWS for high-concurrency messaging workflows.",
-          "Migrated the customer inbox from Redux to Jotai and added Datadog monitoring."
+          "Shipped AI conversational commerce features in React across 3 channels: WhatsApp, Facebook Messenger, and Discord.",
+          "Built Go and PostgreSQL services on AWS for high-concurrency messaging and migrated the inbox from Redux to Jotai."
         ]
       },
       {
@@ -50,9 +61,8 @@
         "startDate": { "month": 5, "year": 2022 },
         "endDate": { "month": 5, "year": 2024 },
         "bullets": [
-          "Directed frontend architecture for a Web3 social platform aggregating cross-chain assets and NFTs.",
-          "Migrated the legacy Angular codebase to React and Next.js, improving performance and SEO.",
-          "Engineered multi-wallet authentication ahead of WalletConnect and led a distributed frontend team."
+          "Directed frontend architecture for a Web3 social platform verifying cross-chain assets and NFTs; led a distributed team.",
+          "Migrated a legacy Angular codebase to React and Next.js and engineered multi-wallet authentication ahead of WalletConnect."
         ]
       },
       {
@@ -63,9 +73,8 @@
         "startDate": { "month": 6, "year": 2022 },
         "endDate": { "month": 2, "year": 2023 },
         "bullets": [
-          "Directed 4 technical functions: web engineering, UI/UX, IT infrastructure, and digital marketing.",
-          "Supervised offshore teams building React, Angular, and Node.js products, owning budgets and QA.",
-          "Recruited and hired full-stack developers, SEO analysts, and content strategists."
+          "Directed 4 technical functions — web engineering, UI/UX, IT infrastructure, and digital marketing — across concurrent client work.",
+          "Supervised offshore React, Angular, and Node.js delivery and hired full-stack developers, SEO analysts, and content strategists."
         ]
       },
       {
@@ -76,9 +85,8 @@
         "startDate": { "month": 12, "year": 2020 },
         "endDate": { "month": 6, "year": 2022 },
         "bullets": [
-          "Led engineering through the full SDLC with hands-on review and testing standards.",
-          "Shipped Ionic apps to the Apple and Google stores with in-app subscriptions and Stripe payments.",
-          "Configured CI/CD pipelines on AWS, Heroku, and Firebase for high-frequency releases."
+          "Set technical strategy and governed SDLC through code review, testing standards, and deployment gates.",
+          "Shipped Ionic apps with in-app subscriptions to the Apple and Google stores; automated releases on AWS, Heroku, and Firebase."
         ]
       },
       {
@@ -89,7 +97,7 @@
         "startDate": { "month": 4, "year": 2020 },
         "endDate": { "month": 1, "year": 2021 },
         "bullets": [
-          "Architected an Angular frontend and Spring Boot backend on AWS EC2, integrating Stripe Connect to power a vendor marketplace."
+          "Architected an Angular frontend and Spring Boot backend on AWS EC2 with Amplify CI/CD; integrated Stripe Connect for vendor payouts."
         ]
       }
     ]
@@ -106,16 +114,8 @@
         "skills": ["React", "Next.js", "Angular", "Ionic", "Tailwind CSS", "Redux", "Jotai"]
       },
       {
-        "name": "Backend & Data",
-        "skills": ["Node.js", "Express", "NestJS", "Spring Boot", "PostgreSQL", "MongoDB"]
-      },
-      {
-        "name": "Cloud & DevOps",
-        "skills": ["AWS", "Firebase", "Heroku", "CI/CD", "Git", "Datadog"]
-      },
-      {
-        "name": "Practices",
-        "skills": ["Agile & Scrum", "SDLC ownership", "Code review", "Automated testing"]
+        "name": "Backend and cloud",
+        "skills": ["Node.js", "Express", "NestJS", "Spring Boot", "PostgreSQL", "MongoDB", "AWS", "Firebase", "CI/CD", "Git"]
       }
     ]
   },
@@ -124,7 +124,7 @@
     "items": [
       {
         "qualificationName": "Bachelor of Engineering",
-        "qualificationField": "Electronic & Computer Engineering",
+        "qualificationField": "Electronic and Computer Engineering",
         "instituteName": "University of Nottingham Malaysia",
         "instituteLocation": "Semenyih, Malaysia",
         "startYear": 2010,

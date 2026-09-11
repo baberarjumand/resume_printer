@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Baber Arjumand Resume",
+    "author": "Baber Arjumand",
+    "subject": "General tech resume — Frontend Lead / Full-Stack",
+    "language": "en-US"
+  },
+  "header": {
+    "name": "Baber Arjumand",
+    "headline": "Software Engineer  |  Frontend Lead  |  Full-Stack",
+    "location": "Islamabad, Pakistan  |  Remote worldwide",
+    "phone": {
+      "label": "Available via email",
+      "href": "mailto:baber.arjumand@gmail.com"
+    },
+    "email": {
+      "label": "baber.arjumand@gmail.com",
+      "href": "mailto:baber.arjumand@gmail.com"
+    }
+  },
+  "links": [
+    {
+      "label": "baber.dev",
+      "href": "https://baber.dev/"
+    },
+    {
+      "label": "linkedin.com/in/baberarjumand",
+      "href": "https://www.linkedin.com/in/baberarjumand/"
+    },
+    {
+      "label": "github.com/baberarjumand",
+      "href": "https://github.com/baberarjumand"
+    }
+  ],
+  "skills": [
+    {
+      "label": "Languages",
+      "items": "TypeScript, JavaScript, Python, Go, Java, SQL, HTML, CSS"
+    },
+    {
+      "label": "Frontend",
+      "items": "React, Next.js, Angular, Ionic, Tailwind CSS, Material UI, Redux, Jotai"
+    },
+    {
+      "label": "Backend and cloud",
+      "items": "Node.js, Express, NestJS, Spring Boot, PostgreSQL, MongoDB, AWS, Firebase, CI/CD, Git, Datadog, Stripe Connect, Agile"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Founder",
+      "company": "Qaari.net",
+      "dates": "Jul 2024 - Present",
+      "place": "Islamabad, Pakistan  |  Remote",
+      "bullets": [
+        "Own product and engineering for a marketplace matching students with private Quran teachers across booking, scheduling, and onboarding."
+      ]
+    },
+    {
+      "title": "Front End Lead",
+      "company": "AeraTech",
+      "dates": "Nov 2024 - Jun 2025",
+      "place": "London, United Kingdom  |  Remote",
+      "bullets": [
+        "Architected a B2B cross-border payment platform from concept to alpha in 8 months using React and Tailwind CSS.",
+        "Engineered Node.js, Express, and MongoDB services with Python microservices for financial reporting.",
+        "Integrated Mastercard Digital Asset Solutions and shipped a real-time multi-branch liquidity dashboard."
+      ]
+    },
+    {
+      "title": "Software Engineer, Frontend",
+      "company": "Connectly.ai",
+      "dates": "Jun 2024 - Oct 2024",
+      "place": "San Francisco, CA  |  Remote",
+      "bullets": [
+        "Shipped AI conversational commerce features in React across 3 channels: WhatsApp, Facebook Messenger, and Discord.",
+        "Built Go and PostgreSQL services on AWS for high-concurrency messaging and migrated the inbox from Redux to Jotai."
+      ]
+    },
+    {
+      "title": "Front End Lead",
+      "company": "Tapistri",
+      "dates": "May 2022 - May 2024",
+      "place": "United States  |  Remote",
+      "bullets": [
+        "Directed frontend architecture for a Web3 social platform verifying cross-chain assets and NFTs; led a distributed team.",
+        "Migrated a legacy Angular codebase to React and Next.js and engineered multi-wallet authentication ahead of WalletConnect."
+      ]
+    },
+    {
+      "title": "Senior Director of Technology",
+      "company": "East Coast Digital Marketing",
+      "dates": "Jun 2022 - Feb 2023",
+      "place": "Orlando, FL  |  Remote",
+      "bullets": [
+        "Directed 4 technical functions — web engineering, UI/UX, IT infrastructure, and digital marketing — across concurrent client work.",
+        "Supervised offshore React, Angular, and Node.js delivery and hired full-stack developers, SEO analysts, and content strategists."
+      ]
+    },
+    {
+      "title": "CTO, then Full Stack Engineer",
+      "company": "Bold Tech LLC",
+      "dates": "Dec 2020 - Jun 2022",
+      "place": "Orlando, FL  |  Remote",
+      "extra": "Progression: Frontend Developer to Full Stack Engineer to CTO",
+      "bullets": [
+        "Set technical strategy and governed SDLC through code review, testing standards, and deployment gates.",
+        "Shipped Ionic apps with in-app subscriptions to the Apple and Google stores; automated releases on AWS, Heroku, and Firebase."
+      ]
+    },
+    {
+      "title": "Lead Frontend Engineer",
+      "company": "Up Pay",
+      "dates": "Apr 2020 - Jan 2021",
+      "place": "Sydney, NSW, Australia  |  Remote",
+      "bullets": [
+        "Architected an Angular frontend and Spring Boot backend on AWS EC2 with Amplify CI/CD; integrated Stripe Connect for vendor payouts."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. Electronic and Computer Engineering",
+      "school": "University of Nottingham Malaysia",
+      "year": "2010 - 2013"
+    }
+  ]
+}

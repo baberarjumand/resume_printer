@@ -8,7 +8,9 @@ import { chromium } from 'playwright'
 const root = fileURLToPath(
   new URL('../node_modules/.cache/resume-pages', import.meta.url),
 )
-const outDir = fileURLToPath(new URL('../assets/generated_resumes', import.meta.url))
+const outDir = fileURLToPath(
+  new URL('../tech-resume-generator_files/output', import.meta.url),
+)
 
 const MIME = {
   '.html': 'text/html',
@@ -58,7 +60,7 @@ const browser = await chromium.launch()
 const page = await browser.newPage({ viewport: { width: 1400, height: 1200 } })
 
 for (const variant of VARIANTS) {
-  await page.goto(`${base}#layout${variant.layout}-${variant.pages}page`, {
+  await page.goto(`${base}?render=1#layout${variant.layout}-${variant.pages}page`, {
     waitUntil: 'networkidle',
   })
   await page.waitForSelector(SHEETS[variant.layout])

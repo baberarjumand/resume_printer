@@ -1,7 +1,7 @@
 {
   "name": "Baber Arjumand",
-  "headline": "Software Engineer | Frontend Lead",
-  "tagline": "Software Engineer & Technical Leader",
+  "headline": "Software Engineer | Frontend Lead | Full-Stack",
+  "tagline": "Software Engineer & Frontend Lead",
   "location": "Islamabad, Pakistan",
   "links": {
     "website": "https://baber.dev/",
@@ -11,7 +11,7 @@
   },
   "summary": {
     "label": "Summary",
-    "text": "Software engineer and frontend lead with over 6 years shipping production web products in **React**, **TypeScript**, and **Node.js** across payments, Web3, and AI platforms built by fully remote teams."
+    "text": "Software engineer and frontend lead with over 6 years shipping production web products in **React**, **TypeScript**, and **Node.js** for remote payments, Web3, and AI messaging teams."
   },
   "experience": {
     "label": "Experience",
@@ -24,9 +24,8 @@
         "startDate": { "month": 11, "year": 2024 },
         "endDate": { "month": 6, "year": 2025 },
         "bullets": [
-          "Architected a **B2B cross-border payment** platform from concept to alpha in **React** and **Tailwind CSS** across an 8-month engagement.",
-          "Engineered **Node.js**, **Express**, and **MongoDB** services with **Python** microservices for financial data analysis and reporting.",
-          "Integrated **Mastercard Digital Asset Solutions** and shipped a real-time multi-branch liquidity dashboard."
+          "Architected a **B2B cross-border payment** platform from concept to alpha in 8 months using **React** and **Tailwind CSS**.",
+          "Engineered **Node.js**, **Express**, and **MongoDB** services with **Python** microservices; integrated **Mastercard Digital Asset Solutions**."
         ]
       },
       {
@@ -37,8 +36,8 @@
         "startDate": { "month": 6, "year": 2024 },
         "endDate": { "month": 10, "year": 2024 },
         "bullets": [
-          "Delivered features for an **AI conversational commerce** platform in **React**, powering campaigns across 3 channels: WhatsApp, Messenger, and Discord.",
-          "Engineered **Go** and **PostgreSQL** services on **AWS** for high-concurrency messaging, and migrated the customer inbox from **Redux** to **Jotai**."
+          "Shipped **AI conversational commerce** features in **React** across 3 channels: WhatsApp, Messenger, and Discord.",
+          "Built **Go** and **PostgreSQL** services on **AWS**; migrated the inbox from **Redux** to **Jotai**."
         ]
       },
       {
@@ -49,8 +48,8 @@
         "startDate": { "month": 5, "year": 2022 },
         "endDate": { "month": 5, "year": 2024 },
         "bullets": [
-          "Directed frontend architecture for a **Web3 social platform** aggregating cross-chain assets and NFTs, leading a distributed engineering team.",
-          "Migrated the legacy **Angular** codebase to **React/Next.js** and built multi-wallet authentication ahead of WalletConnect."
+          "Directed frontend architecture for a **Web3** social platform verifying cross-chain assets and NFTs; led a distributed team.",
+          "Migrated a legacy **Angular** codebase to **React** and **Next.js**; engineered multi-wallet authentication ahead of WalletConnect."
         ]
       },
       {
@@ -61,8 +60,7 @@
         "startDate": { "month": 6, "year": 2022 },
         "endDate": { "month": 2, "year": 2023 },
         "bullets": [
-          "Directed 4 technical functions — web engineering, UI/UX, IT infrastructure, and digital marketing — across a client portfolio.",
-          "Supervised offshore teams building **React**, **Angular**, and **Node.js** products, owning budgets, QA, and hiring."
+          "Directed 4 technical functions — web engineering, UI/UX, IT, and digital marketing — and hired full-stack, SEO, and content roles."
         ]
       },
       {
@@ -73,8 +71,18 @@
         "startDate": { "month": 12, "year": 2020 },
         "endDate": { "month": 6, "year": 2022 },
         "bullets": [
-          "Led engineering through the full SDLC with hands-on review, testing standards, and CI/CD on **AWS**, **Heroku**, and **Firebase**.",
-          "Shipped **Ionic** apps to both mobile stores with in-app subscriptions and **Stripe** payments."
+          "Set technical strategy and governed SDLC; shipped **Ionic** apps with subscriptions and CI/CD on **AWS**, **Heroku**, and **Firebase**."
+        ]
+      },
+      {
+        "role": "Lead Frontend Engineer",
+        "company": "Up Pay",
+        "location": "Sydney, NSW, Australia",
+        "workMode": "Remote",
+        "startDate": { "month": 4, "year": 2020 },
+        "endDate": { "month": 1, "year": 2021 },
+        "bullets": [
+          "Architected an **Angular** frontend and **Spring Boot** backend on AWS EC2; integrated **Stripe Connect** for vendor payouts."
         ]
       }
     ]
@@ -88,15 +96,11 @@
       },
       {
         "name": "Frontend",
-        "skills": ["React", "Next.js", "Angular", "Ionic", "Tailwind CSS", "Jotai"]
+        "skills": ["React", "Next.js", "Angular", "Ionic", "Tailwind CSS", "Redux", "Jotai"]
       },
       {
-        "name": "Backend & Data",
-        "skills": ["Node.js", "Express", "NestJS", "PostgreSQL", "MongoDB"]
-      },
-      {
-        "name": "Cloud & DevOps",
-        "skills": ["AWS", "Firebase", "Heroku", "CI/CD", "Git", "Datadog"]
+        "name": "Backend and cloud",
+        "skills": ["Node.js", "Express", "NestJS", "Spring Boot", "PostgreSQL", "MongoDB", "AWS", "Firebase", "CI/CD", "Git"]
       }
     ]
   },
@@ -105,7 +109,7 @@
     "items": [
       {
         "qualificationName": "Bachelor of Engineering",
-        "qualificationField": "Electronic & Computer Engineering",
+        "qualificationField": "Electronic and Computer Engineering",
         "instituteName": "University of Nottingham Malaysia",
         "instituteLocation": "Semenyih, Malaysia",
         "startYear": 2010,

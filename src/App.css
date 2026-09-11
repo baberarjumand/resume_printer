@@ -83,10 +83,38 @@
 .preview {
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+
+.pdf-preview {
+  max-width: 100%;
+  border: none;
+  background: #fff;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.16);
+}
+
+.pdf-preview-letter.pdf-preview-pages-1 {
+  width: 8.5in;
+  height: 11in;
+}
+
+.pdf-preview-letter.pdf-preview-pages-2 {
+  width: 8.5in;
+  height: 22in;
+}
+
+.pdf-preview-a4.pdf-preview-pages-1 {
+  width: 210mm;
+  height: 297mm;
+}
+
+.pdf-preview-a4.pdf-preview-pages-2 {
+  width: 210mm;
+  height: 594mm;
 }
 
 /* One-page variants get a single-sheet preview; two-page variants keep the
-   page-break guide rule visible at the fold. */
+   page-break guide rule visible at the fold. (?render=1 / export scripts) */
 .preview-pages-1 .resume-sheet {
   --resume-sheet-height: 297mm;
 }
@@ -116,6 +144,8 @@
   bottom: 24px;
   margin: 0;
   z-index: 10;
+  display: flex;
+  gap: 8px;
 }
 
 .print-button {
@@ -128,6 +158,9 @@
   border: 1px solid #1d1d1d;
   padding: 10px 28px;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .app-layout-3 .print-button {

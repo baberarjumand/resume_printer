@@ -50,7 +50,7 @@ let overflowed = false
 
 for (const layout of Object.keys(SHEETS)) {
   for (const pages of ['1', '2']) {
-    await page.goto(`${base}#layout${layout}-${pages}page`, {
+    await page.goto(`${base}?render=1#layout${layout}-${pages}page`, {
       waitUntil: 'networkidle',
     })
 

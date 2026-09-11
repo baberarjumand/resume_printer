@@ -1,6 +1,6 @@
 {
   "name": "Baber Arjumand",
-  "headline": "Software Engineer | Frontend Lead",
+  "headline": "Software Engineer | Frontend Lead | Full-Stack",
   "location": "Islamabad, Pakistan",
   "availability": "Remote worldwide · Delivered for teams in the United States, United Kingdom, Canada, Australia, and the Gulf",
   "links": {
@@ -30,7 +30,7 @@
       },
       {
         "name": "Frontend",
-        "skills": ["React", "Next.js", "Angular", "Ionic", "Capacitor", "Tailwind CSS", "Material UI", "Redux", "Jotai", "RxJS", "SCSS"]
+        "skills": ["React", "Next.js", "Angular", "Ionic", "Tailwind CSS", "Material UI", "Redux", "Jotai", "RxJS"]
       },
       {
         "name": "Backend and data",
@@ -63,9 +63,8 @@
         "startDate": { "month": 7, "year": 2024 },
         "endDate": "Present",
         "bullets": [
-          "Operate a marketplace pairing children and adults with private Quran teachers across matching, scheduling, and lesson delivery.",
-          "Own the product end to end as sole engineer, covering booking flows, teacher onboarding, and production infrastructure.",
-          "Drive acquisition through search visibility and a vetted teacher network."
+          "Own product and engineering for a marketplace matching students with private Quran teachers across booking, scheduling, and onboarding.",
+          "Direct growth operations for a remote-first tutoring network, including teacher vetting and search visibility."
         ],
         "tech": ["React", "Node.js", "Tailwind CSS"]
       },
@@ -78,10 +77,10 @@
         "startDate": { "month": 11, "year": 2024 },
         "endDate": { "month": 6, "year": 2025 },
         "bullets": [
-          "Architected a B2B cross-border payment platform from concept to alpha in 8 months, spanning frontend, services, and analytics.",
-          "Integrated Mastercard Digital Asset Solutions to settle institutional cross-border transfers over an internal blockchain ledger.",
-          "Consolidated multi-branch liquidity for multinational corporates into a single real-time dashboard.",
-          "Removed manual release steps by establishing CI/CD pipelines for both frontend and backend."
+          "Architected a B2B cross-border payment platform from concept to alpha in 8 months using React and Tailwind CSS.",
+          "Engineered Node.js, Express, and MongoDB services with Python microservices for financial reporting.",
+          "Integrated Mastercard Digital Asset Solutions and shipped a real-time multi-branch liquidity dashboard.",
+          "Established CI/CD on Firebase Hosting and Heroku for continuous frontend and backend delivery."
         ],
         "tech": ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Python", "Firebase", "Heroku"]
       },
@@ -94,10 +93,10 @@
         "startDate": { "month": 6, "year": 2024 },
         "endDate": { "month": 10, "year": 2024 },
         "bullets": [
-          "Delivered end-to-end campaign features reaching customers across 3 channels: WhatsApp, Facebook Messenger, and Discord.",
-          "Engineered Go and PostgreSQL services on AWS to absorb high-concurrency messaging workloads.",
-          "Migrated the unified customer inbox from Redux to Jotai, cutting state-management surface area and improving render responsiveness.",
-          "Instrumented logging and monitoring with Datadog and built real-time engagement analytics dashboards."
+          "Shipped AI conversational commerce features in React across 3 channels: WhatsApp, Facebook Messenger, and Discord.",
+          "Built Go and PostgreSQL services on AWS for high-concurrency messaging workflows.",
+          "Migrated the unified customer inbox from Redux to Jotai, cutting state-management surface area.",
+          "Built engagement analytics dashboards and instrumented the platform with Datadog."
         ],
         "tech": ["React", "TypeScript", "Go", "PostgreSQL", "AWS", "Datadog", "Python"]
       },
@@ -110,9 +109,9 @@
         "startDate": { "month": 5, "year": 2022 },
         "endDate": { "month": 5, "year": 2024 },
         "bullets": [
-          "Directed frontend architecture for a platform that aggregates and verifies digital assets and NFTs across multiple chains.",
-          "Migrated a legacy Angular codebase to React and Next.js, lifting load performance, SEO, and scalability.",
-          "Engineered multi-wallet authentication ahead of WalletConnect, linking accounts across several blockchain protocols.",
+          "Directed frontend architecture for a Web3 social platform verifying cross-chain assets and NFTs.",
+          "Migrated a legacy Angular codebase to React and Next.js, improving load performance, SEO, and scalability.",
+          "Engineered multi-wallet authentication ahead of WalletConnect across multiple blockchain protocols.",
           "Led a distributed frontend team and set coding standards, performance benchmarks, and automated testing."
         ],
         "tech": ["React", "Next.js", "TypeScript", "NestJS", "Wagmi", "Ethers", "Cloudflare"]
@@ -142,8 +141,7 @@
         "endDate": { "month": 6, "year": 2022 },
         "bullets": [
           "Set technical strategy and translated business requirements into specifications and Agile sprint plans.",
-          "Governed the delivery lifecycle across teams through code review, testing standards, and deployment gates.",
-          "Administered enterprise IT infrastructure, cloud services, and email systems."
+          "Governed the delivery lifecycle across teams through code review, testing standards, and deployment gates."
         ],
         "tech": ["React", "Angular", "Node.js", "Parse", "Jira", "Adobe XD"]
       },
@@ -156,8 +154,8 @@
         "endDate": { "month": 8, "year": 2021 },
         "bullets": [
           "Delivered full-stack applications spanning React and Angular frontends, REST API design, and schema optimization.",
-          "Shipped Ionic progressive web apps and hybrid iOS and Android builds with in-app subscriptions to both app stores.",
-          "Automated releases with CI/CD pipelines on AWS, Heroku, and Firebase."
+          "Shipped Ionic progressive web apps and hybrid iOS and Android builds with in-app subscriptions.",
+          "Integrated Stripe, Apple, and Google payments and configured CI/CD on AWS, Heroku, and Firebase."
         ],
         "tech": ["React", "Angular", "Ionic", "Capacitor", "Express", "Stripe", "AWS", "Firebase"]
       },

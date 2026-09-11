@@ -1,0 +1,96 @@
+{
+  "skill_name": "tech-resume-generator",
+  "description_eval": true,
+  "queries": [
+    {
+      "query": "Use tech-resume-generator to make my resume from the files in tech-resume-generator_files/user_professional_data/",
+      "should_trigger": true,
+      "split": "train"
+    },
+    {
+      "query": "make my resume better for SWE roles, ATS friendly please",
+      "should_trigger": true,
+      "split": "train"
+    },
+    {
+      "query": "customize this for a job posting — I pasted the JD below",
+      "should_trigger": true,
+      "split": "train"
+    },
+    {
+      "query": "I have old LinkedIn PDFs and certs — can you generate a one-page tech CV?",
+      "should_trigger": true,
+      "split": "train"
+    },
+    {
+      "query": "one-pager for internships from my messy notes folder",
+      "should_trigger": true,
+      "split": "train"
+    },
+    {
+      "query": "rewrite my engineering resume bullets with metrics",
+      "should_trigger": true,
+      "split": "validation"
+    },
+    {
+      "query": "hey can you whip up a resume from my notes folder for internship hunting",
+      "should_trigger": true,
+      "split": "validation"
+    },
+    {
+      "query": "optimize my staff frontend resume for this Acme posting",
+      "should_trigger": true,
+      "split": "validation"
+    },
+    {
+      "query": "turn my career dump into a FAANG-style one pager",
+      "should_trigger": true,
+      "split": "validation"
+    },
+    {
+      "query": "write a cover letter for this SWE role",
+      "should_trigger": false,
+      "split": "train"
+    },
+    {
+      "query": "rewrite my LinkedIn About section",
+      "should_trigger": false,
+      "split": "train"
+    },
+    {
+      "query": "update the formulas in my Excel budget spreadsheet",
+      "should_trigger": false,
+      "split": "train"
+    },
+    {
+      "query": "review this pull request for security issues",
+      "should_trigger": false,
+      "split": "train"
+    },
+    {
+      "query": "help me practice behavioral interview answers for this job",
+      "should_trigger": false,
+      "split": "validation"
+    },
+    {
+      "query": "draft a cold email to a recruiter about my resume",
+      "should_trigger": false,
+      "split": "validation"
+    },
+    {
+      "query": "summarize this research paper on transformers",
+      "should_trigger": false,
+      "split": "validation"
+    },
+    {
+      "query": "fix the CSS on my portfolio homepage",
+      "should_trigger": false,
+      "split": "validation"
+    },
+    {
+      "query": "parse this job description into a structured JSON schema for our ATS database",
+      "should_trigger": false,
+      "split": "validation"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "tech-resume-generator": {
+      "source": "baberarjumand/technical-resume-generator_agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/tech-resume-generator/SKILL.md",
+      "computedHash": "805c80c2d08810d8c89050d79bbcda3969eeca5a948ecc7a941f6bfd14de8c45"
+    }
+  }
+}

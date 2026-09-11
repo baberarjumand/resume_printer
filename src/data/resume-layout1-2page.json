@@ -1,6 +1,6 @@
 {
   "name": "Baber Arjumand",
-  "headline": "Software Engineer | Frontend Lead",
+  "headline": "Software Engineer | Frontend Lead | Full-Stack",
   "tagline": "Software Engineer & Technical Leader",
   "location": "Islamabad, Pakistan",
   "links": {
@@ -25,8 +25,8 @@
         "startDate": { "month": 7, "year": 2024 },
         "endDate": "Present",
         "bullets": [
-          "Founded and operate an online marketplace pairing children and adults with **private Quran teachers**, covering matching, scheduling, and lesson delivery.",
-          "Direct product strategy, UX, and full-stack engineering as sole technical owner."
+          "Own product and engineering for a marketplace matching students with private Quran teachers across booking, scheduling, and onboarding.",
+          "Direct growth operations for a remote-first tutoring network, including teacher vetting and search visibility."
         ]
       },
       {
@@ -37,10 +37,10 @@
         "startDate": { "month": 11, "year": 2024 },
         "endDate": { "month": 6, "year": 2025 },
         "bullets": [
-          "Architected a **B2B cross-border payment** platform from concept to alpha in **React** and **Tailwind CSS** across an 8-month engagement.",
-          "Engineered **Node.js**, **Express**, and **MongoDB** services with **Python** microservices handling financial data analysis and reporting.",
-          "Integrated **Mastercard Digital Asset Solutions** for institutional liquidity, and built a dashboard exposing real-time multi-branch positions.",
-          "Implemented a settlement recommendation engine and established CI/CD on **Firebase Hosting** and **Heroku**."
+          "Architected a **B2B cross-border payment** platform from concept to alpha in 8 months using **React** and **Tailwind CSS**.",
+          "Engineered **Node.js**, **Express**, and **MongoDB** services with **Python** microservices for financial data analysis and reporting.",
+          "Integrated **Mastercard Digital Asset Solutions** for institutional liquidity and shipped a real-time multi-branch liquidity dashboard.",
+          "Established CI/CD on **Firebase Hosting** and **Heroku** for continuous frontend and backend delivery."
         ]
       },
       {
@@ -51,9 +51,10 @@
         "startDate": { "month": 6, "year": 2024 },
         "endDate": { "month": 10, "year": 2024 },
         "bullets": [
-          "Delivered end-to-end features for an **AI conversational commerce** platform in **React**, powering campaigns across 3 channels: WhatsApp, Messenger, and Discord.",
-          "Engineered distributed **Go** and **PostgreSQL** services on **AWS** to sustain high-concurrency messaging workflows.",
-          "Migrated the unified customer inbox from **Redux** to **Jotai**, and built engagement analytics dashboards with **Datadog** monitoring."
+          "Shipped **AI conversational commerce** features in **React** across 3 channels: WhatsApp, Facebook Messenger, and Discord.",
+          "Built **Go** and **PostgreSQL** services on **AWS** for high-concurrency messaging workflows.",
+          "Migrated the unified customer inbox from **Redux** to **Jotai**, cutting state-management surface area.",
+          "Built engagement analytics dashboards and instrumented the platform with **Datadog**."
         ]
       },
       {
@@ -64,10 +65,10 @@
         "startDate": { "month": 5, "year": 2022 },
         "endDate": { "month": 5, "year": 2024 },
         "bullets": [
-          "Directed frontend architecture for a **Web3 social platform** that aggregates and verifies cross-chain digital assets and NFTs.",
-          "Led a full migration from legacy **Angular** to **React/Next.js**, improving load performance, SEO, and scalability.",
-          "Engineered proprietary **multi-wallet authentication** ahead of WalletConnect, linking accounts across multiple blockchain protocols.",
-          "Led a distributed frontend team and built scrapers backing a searchable NFT database."
+          "Directed frontend architecture for a **Web3** social platform verifying cross-chain assets and NFTs.",
+          "Migrated a legacy **Angular** codebase to **React** and **Next.js**, improving load performance, SEO, and scalability.",
+          "Engineered multi-wallet authentication ahead of WalletConnect across multiple blockchain protocols.",
+          "Led a distributed frontend team and set coding standards, performance benchmarks, and automated testing."
         ]
       },
       {
@@ -78,9 +79,9 @@
         "startDate": { "month": 5, "year": 2022 },
         "endDate": { "month": 9, "year": 2023 },
         "bullets": [
-          "Served as senior technical consultant across concurrent client accounts, leading frontend delivery in **Angular** and **React**.",
-          "Engineered backend APIs with **NestJS** and modelled complex data in **ArangoDB** to close the full-stack loop.",
-          "Translated business needs into software requirements specifications and roadmaps."
+          "Led frontend delivery in **Angular** and **React** across concurrent client accounts as senior technical consultant.",
+          "Engineered backend APIs with **NestJS** and modelled complex data in **ArangoDB**.",
+          "Authored software requirements specifications and phased development roadmaps."
         ]
       },
       {
@@ -91,9 +92,9 @@
         "startDate": { "month": 6, "year": 2022 },
         "endDate": { "month": 2, "year": 2023 },
         "bullets": [
-          "Directed 4 technical functions — web engineering, UI/UX, IT infrastructure, and digital marketing — across a concurrent client portfolio.",
-          "Supervised global offshore teams delivering **React**, **Angular**, **Node.js**, and **WordPress** products for healthcare, food service, and non-profit clients.",
-          "Owned budgets, timelines, and QA across the full SDLC, and hired full-stack developers, SEO analysts, and content strategists."
+          "Directed 4 technical functions — web engineering, UI/UX, IT infrastructure, and digital marketing — across concurrent client work.",
+          "Supervised offshore teams delivering **React**, **Angular**, **Node.js**, and **WordPress** products.",
+          "Owned budgets, timelines, and QA across the SDLC and hired full-stack developers, SEO analysts, and content strategists."
         ]
       },
       {
@@ -105,7 +106,7 @@
         "endDate": { "month": 6, "year": 2022 },
         "bullets": [
           "Set technical strategy and converted business requirements into Agile sprint plans.",
-          "Directed engineering teams through the full SDLC with review, testing standards, and deployment gates, and administered enterprise IT infrastructure."
+          "Governed the delivery lifecycle through code review, testing standards, and deployment gates."
         ]
       },
       {
@@ -116,9 +117,9 @@
         "startDate": { "month": 12, "year": 2020 },
         "endDate": { "month": 8, "year": 2021 },
         "bullets": [
-          "Delivered full-stack applications spanning **React** and **Angular** frontends, REST API design, and database schema optimization.",
-          "Shipped **Ionic** progressive web apps and hybrid iOS and Android builds with in-app subscriptions through both app stores.",
-          "Integrated **Stripe**, Apple, and Google payments, and configured CI/CD on **AWS**, **Heroku**, and **Firebase**."
+          "Delivered full-stack applications spanning **React** and **Angular** frontends, REST API design, and schema optimization.",
+          "Shipped **Ionic** progressive web apps and hybrid iOS and Android builds with in-app subscriptions.",
+          "Integrated **Stripe**, Apple, and Google payments and configured CI/CD on **AWS**, **Heroku**, and **Firebase**."
         ]
       },
       {
@@ -129,8 +130,8 @@
         "startDate": { "month": 4, "year": 2020 },
         "endDate": { "month": 1, "year": 2021 },
         "bullets": [
-          "Architected the **Angular** frontend from scratch with automated CI/CD through AWS Amplify.",
-          "Engineered a **Spring Boot** backend on AWS EC2, integrated **Stripe Connect** for a vendor marketplace, and ran intern workshops."
+          "Architected an **Angular** frontend and **Spring Boot** backend on AWS EC2 with Amplify CI/CD.",
+          "Integrated **Stripe Connect** across the stack to power a vendor-based marketplace and ran intern workshops."
         ]
       },
       {
@@ -141,8 +142,8 @@
         "startDate": { "month": 12, "year": 2019 },
         "endDate": { "month": 6, "year": 2020 },
         "bullets": [
-          "Built an on-demand laundry marketplace in **Ionic** for iOS and Android, concept to alpha.",
-          "Engineered a serverless backend on **Firebase Cloud Firestore** and Cloud Functions, with internationalization for multi-region launch."
+          "Built an on-demand laundry marketplace in **Ionic** for iOS and Android, from concept to alpha.",
+          "Engineered a serverless backend on **Firebase Cloud Firestore** and Cloud Functions with internationalization for multi-region launch."
         ]
       },
       {
@@ -171,20 +172,20 @@
         "skills": ["React", "Next.js", "Angular", "Ionic", "Capacitor", "Tailwind CSS", "Material UI", "Redux", "Jotai", "RxJS"]
       },
       {
-        "name": "Backend & Data",
+        "name": "Backend and data",
         "skills": ["Node.js", "Express", "NestJS", "Spring Boot", "REST APIs", "PostgreSQL", "MongoDB", "ArangoDB", "Cloud Firestore"]
       },
       {
-        "name": "Cloud & DevOps",
+        "name": "Cloud and delivery",
         "skills": ["AWS (EC2, Amplify)", "Firebase", "Heroku", "Cloudflare", "CI/CD", "Git", "Datadog"]
       },
       {
         "name": "Integrations",
-        "skills": ["Stripe Connect", "Apple & Google Pay", "Wagmi", "Ethers", "Mastercard Digital Asset Solutions"]
+        "skills": ["Stripe Connect", "Apple and Google Pay", "Wagmi", "Ethers", "Mastercard Digital Asset Solutions"]
       },
       {
         "name": "Practices",
-        "skills": ["Agile & Scrum", "SDLC ownership", "Code review", "Automated testing", "Technical leadership"]
+        "skills": ["Agile and Scrum", "SDLC ownership", "Code review", "Automated testing", "Technical leadership"]
       },
       {
         "name": "Spoken",
@@ -197,7 +198,7 @@
     "items": [
       {
         "qualificationName": "Bachelor of Engineering",
-        "qualificationField": "Electronic & Computer Engineering",
+        "qualificationField": "Electronic and Computer Engineering",
         "instituteName": "University of Nottingham Malaysia",
         "instituteLocation": "Semenyih, Malaysia",
         "startYear": 2010,
@@ -210,7 +211,7 @@
     "subtitle": "Teaching and community leadership",
     "items": [
       {
-        "role": "Organizer & Workshop Facilitator",
+        "role": "Organizer and Workshop Facilitator",
         "organization": "Effective Islamic English Cross-Cultural Communication Program",
         "location": "Dammam, Saudi Arabia",
         "startYear": 2019,
@@ -220,7 +221,7 @@
         ]
       },
       {
-        "role": "Math & Coding Instructor",
+        "role": "Math and Coding Instructor",
         "organization": "Sylvan Learning",
         "location": "Vancouver, BC, Canada",
         "startYear": 2016,

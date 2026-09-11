@@ -1,6 +1,6 @@
 {
   "name": "Baber Arjumand",
-  "headline": "Software Engineer | Frontend Lead | Full-Stack Developer",
+  "headline": "Software Engineer | Frontend Lead | Full-Stack",
   "tagline": "Software Engineer & Frontend Lead — React · TypeScript · Node.js",
   "location": "Islamabad, Pakistan",
   "links": {
@@ -11,11 +11,23 @@
   },
   "summary": {
     "label": "Summary",
-    "text": "Software engineer and frontend lead with over 6 years shipping production web and mobile products in React, TypeScript, and Node.js."
+    "text": "Software engineer and frontend lead with over 6 years shipping production web products in React, TypeScript, and Node.js."
   },
   "experience": {
     "label": "Professional Experience",
     "items": [
+      {
+        "role": "Founder",
+        "company": "Qaari.net",
+        "companyWebsite": "https://qaari.net",
+        "location": "Islamabad, Pakistan",
+        "workMode": "Remote",
+        "startDate": { "month": 7, "year": 2024 },
+        "endDate": "Present",
+        "bullets": [
+          "Own product and engineering for a marketplace matching students with private Quran teachers across booking, scheduling, and onboarding."
+        ]
+      },
       {
         "role": "Front End Lead",
         "company": "AeraTech",
@@ -24,9 +36,9 @@
         "startDate": { "month": 11, "year": 2024 },
         "endDate": { "month": 6, "year": 2025 },
         "bullets": [
-          "Architected a B2B cross-border payment platform from concept to alpha in React and Tailwind CSS, delivering the full prototype within an 8-month engagement.",
-          "Engineered Node.js, Express, and MongoDB services with Python microservices for financial data analysis and reporting.",
-          "Integrated Mastercard Digital Asset Solutions and shipped a global dashboard giving multinational administrators real-time multi-branch liquidity visibility."
+          "Architected a B2B cross-border payment platform from concept to alpha in 8 months using React and Tailwind CSS.",
+          "Engineered Node.js, Express, and MongoDB services with Python microservices for financial reporting.",
+          "Integrated Mastercard Digital Asset Solutions and shipped a real-time multi-branch liquidity dashboard."
         ]
       },
       {
@@ -37,9 +49,8 @@
         "startDate": { "month": 6, "year": 2024 },
         "endDate": { "month": 10, "year": 2024 },
         "bullets": [
-          "Delivered features for an AI conversational commerce platform in React, powering campaigns across 3 channels: WhatsApp, Messenger, and Discord.",
-          "Engineered distributed Go and PostgreSQL services on AWS to sustain high-concurrency messaging workflows.",
-          "Migrated the unified customer inbox from Redux to Jotai, cutting state-management complexity."
+          "Shipped AI conversational commerce features in React across 3 channels: WhatsApp, Facebook Messenger, and Discord.",
+          "Built Go and PostgreSQL services on AWS for high-concurrency messaging and migrated the inbox from Redux to Jotai."
         ]
       },
       {
@@ -50,9 +61,8 @@
         "startDate": { "month": 5, "year": 2022 },
         "endDate": { "month": 5, "year": 2024 },
         "bullets": [
-          "Directed frontend architecture for a Web3 social platform aggregating and verifying cross-chain digital assets and NFTs, leading a distributed engineering team.",
-          "Migrated the legacy Angular codebase to React and Next.js, improving load performance, SEO, and scalability.",
-          "Engineered a proprietary multi-wallet authentication solution ahead of WalletConnect, plus scrapers backing a searchable NFT database."
+          "Directed frontend architecture for a Web3 social platform verifying cross-chain assets and NFTs; led a distributed team.",
+          "Migrated a legacy Angular codebase to React and Next.js and engineered multi-wallet authentication ahead of WalletConnect."
         ]
       },
       {
@@ -63,20 +73,20 @@
         "startDate": { "month": 6, "year": 2022 },
         "endDate": { "month": 2, "year": 2023 },
         "bullets": [
-          "Directed 4 technical functions — web engineering, UI/UX, IT infrastructure, and digital marketing — across a concurrent client portfolio.",
-          "Supervised offshore teams building React, Angular, and Node.js products, owning budgets, QA, and technical hiring."
+          "Directed 4 technical functions — web engineering, UI/UX, IT infrastructure, and digital marketing — across concurrent client work.",
+          "Supervised offshore React, Angular, and Node.js delivery and hired full-stack developers, SEO analysts, and content strategists."
         ]
       },
       {
-        "role": "Chief Technology Officer, then Full Stack Engineer",
+        "role": "CTO, then Full Stack Engineer",
         "company": "Bold Tech LLC",
         "location": "Orlando, FL, United States",
         "workMode": "Remote",
         "startDate": { "month": 12, "year": 2020 },
         "endDate": { "month": 6, "year": 2022 },
         "bullets": [
-          "Led engineering through the full SDLC with hands-on review, testing standards, and CI/CD on AWS, Heroku, and Firebase.",
-          "Shipped Ionic apps to the Apple and Google stores with in-app subscriptions and Stripe payment integrations."
+          "Set technical strategy and governed SDLC through code review, testing standards, and deployment gates.",
+          "Shipped Ionic apps with in-app subscriptions to the Apple and Google stores; automated releases on AWS, Heroku, and Firebase."
         ]
       },
       {
@@ -87,7 +97,7 @@
         "startDate": { "month": 4, "year": 2020 },
         "endDate": { "month": 1, "year": 2021 },
         "bullets": [
-          "Architected an Angular frontend and Spring Boot backend on AWS EC2, integrating Stripe Connect to power a vendor marketplace."
+          "Architected an Angular frontend and Spring Boot backend on AWS EC2 with Amplify CI/CD; integrated Stripe Connect for vendor payouts."
         ]
       }
     ]
@@ -104,16 +114,12 @@
         "skills": ["React", "Next.js", "Angular", "Ionic", "Tailwind CSS", "Redux", "Jotai"]
       },
       {
-        "name": "Backend & Data",
-        "skills": ["Node.js", "Express", "NestJS", "Spring Boot", "PostgreSQL", "MongoDB"]
-      },
-      {
-        "name": "Cloud & DevOps",
-        "skills": ["AWS", "Firebase", "Heroku", "CI/CD", "Git", "Datadog"]
+        "name": "Backend and cloud",
+        "skills": ["Node.js", "Express", "NestJS", "Spring Boot", "PostgreSQL", "MongoDB", "AWS", "Firebase", "CI/CD", "Git"]
       },
       {
         "name": "Practices",
-        "skills": ["Agile & Scrum", "SDLC ownership", "Code review", "Automated testing"]
+        "skills": ["Agile and Scrum", "SDLC ownership", "Code review", "Automated testing"]
       }
     ]
   },
@@ -122,7 +128,7 @@
     "items": [
       {
         "qualificationName": "Bachelor of Engineering",
-        "qualificationField": "Electronic & Computer Engineering",
+        "qualificationField": "Electronic and Computer Engineering",
         "instituteName": "University of Nottingham Malaysia",
         "instituteLocation": "Semenyih, Malaysia",
         "startYear": 2010,
@@ -144,14 +150,14 @@
         "year": 2019
       },
       {
-        "name": "JavaScript Algorithms & Data Structures",
+        "name": "JavaScript Algorithms and Data Structures",
         "issuer": "freeCodeCamp",
         "year": 2020
       }
     ]
   },
   "additional": {
-    "label": "Leadership & Teaching",
+    "label": "Leadership and Teaching",
     "items": []
   },
   "languages": [
