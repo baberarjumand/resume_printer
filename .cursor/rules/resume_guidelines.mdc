@@ -1,4 +1,23 @@
+---
+description: >-
+  Resume writing and ATS layout rules for this repo. Apply when editing
+  resume JSON, React layout components, or export/page-check scripts.
+globs:
+  - src/data/**/*.json
+  - src/components/**/*.{tsx,css}
+  - scripts/**/*.mjs
+alwaysApply: false
+---
+
 # Resume Guidelines
+
+## Agent rules (always apply when using this file)
+
+- Always follow these rules when authoring or editing resume JSON under `src/data/` or layout components under `src/components/`.
+- Always keep industry SWE résumés to **one page** unless the user explicitly requests an academic CV or a two-page variant already defined in this project.
+- Always use quantified, ownership-first bullets (verb + what + tech + outcome). Never invent metrics.
+- Never use tables, multi-column ATS-hostile chrome, photos, street addresses, or Expert/Beginner skill labels on generated résumés.
+- Always tailor section emphasis to the target role when a job description is provided; never invent JD keywords the candidate has not used.
 
 Working synthesis of resume rules for this repo. Not a reprint of sample documents.
 
@@ -716,3 +735,4 @@ Research the posting and company first: which profile they want, 2–3 core resp
 | GPA / SAT | List as intellect proof | GPA if strong; **no SAT unless asked** (Harvard) |
 | Color on titles | One winning Meta EM used green titles | **No color** (Harvard / ATS) |
 | Education order | New grads: education first | Same as Harvard College samples |
+

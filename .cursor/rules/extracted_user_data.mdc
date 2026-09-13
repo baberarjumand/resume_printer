@@ -1,4 +1,25 @@
+---
+description: >-
+  Career-fact evidence base from LinkedIn captures. Use when authoring or
+  editing resume JSON, professional_data, or skill output so content stays
+  grounded in real experience.
+globs:
+  - src/data/**/*.json
+  - tech-resume-generator_files/**/*
+alwaysApply: false
+---
+
 # Extracted User Data (Verbose)
+
+## Agent rules (always apply when using this file)
+
+- Never invent employers, titles, dates, tools, metrics, credentials, or a phone number that is not evidenced below.
+- Always treat LinkedIn Experience detail dates and titles as the source of truth when they conflict with older resume wording.
+- Always list only **University of Nottingham Malaysia** under Education on generated résumés unless the user explicitly asks to include other schools.
+- Always prefer facts from this capture (and compiled `professional_data.md`) over guessing from memory.
+- Never put street address, photo, or date of birth on a résumé even if those appear in sources.
+
+---
 
 **Purpose:** Exhaustive capture of career data from LinkedIn full-page PDF snapshots so resume generation can draw on the complete source set without reopening the PDFs.
 
@@ -745,3 +766,4 @@ Recorded for generators to resolve intentionally:
 - [x] Languages (3)
 
 *End of verbose extraction.*
+

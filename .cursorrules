@@ -1,0 +1,19 @@
+# Agent Context Protocol
+
+All agents working in this repository must follow this protocol.
+
+## Before starting work
+
+1. Read [`scratchpad.md`](scratchpad.md) for the current ephemeral checklist and active task notes.
+2. Read [`memory.md`](memory.md) for durable project insights, non-obvious constraints, and architecture decisions — especially before changing core architecture, layout systems, export scripts, or skill workspace conventions.
+
+## During work
+
+- Keep short-lived task steps in `scratchpad.md` (checklists, WIP notes).
+- Prefer updating the scratchpad checklist over dumping progress into chat-only memory.
+
+## When finishing a task or session
+
+1. Clear completed ephemeral items from `scratchpad.md` (reset the checklist when the task is done).
+2. Append durable insights to `memory.md` — constraints, decisions, and non-obvious bug fixes worth remembering later.
+3. Do **not** append line-by-line session logs, command transcripts, or temporary debugging noise to `memory.md`.

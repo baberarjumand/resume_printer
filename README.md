@@ -80,9 +80,11 @@ Sample resumes used as layout guides live in
 | [`sample02_brittany.pdf`](assets/resume_layouts/sample02_brittany.pdf) | Layout 2 direction |
 | [`sample03_diogo.pdf`](assets/resume_layouts/sample03_diogo.pdf) | Layout 3 direction |
 
-Layout 4 follows the writing / ATS rules in [`@state/resume_guidelines.md`](@state/resume_guidelines.md)
+Layout 4 follows the writing / ATS rules in
+[`.cursor/rules/resume_guidelines.mdc`](.cursor/rules/resume_guidelines.mdc)
 as closely as practical (single column, Letter, Arial, no colour or columns). Layout 5 surfaces the
-skill PDF directly.
+skill PDF directly. Career-fact capture used when authoring content lives in
+[`.cursor/rules/extracted_user_data.mdc`](.cursor/rules/extracted_user_data.mdc).
 
 ## Layout notes
 
@@ -178,7 +180,11 @@ resume-printer/
 │   ├── user_professional_data/      # career inputs
 │   ├── job_description_data/        # optional JD inputs
 │   └── output/                      # skill + layout PDFs, professional_data.md
-├── @state/                          # local notes (extracted capture, guidelines)
+├── memory.md / scratchpad.md        # layered agent memory (durable / ephemeral)
+├── .cursorrules                     # Agent Context Protocol
+├── .cursor/rules/                   # project rules (.mdc)
+│   ├── extracted_user_data.mdc
+│   └── resume_guidelines.mdc
 └── .agents/skills/tech-resume-generator/   # installed agent skill
 ```
 
